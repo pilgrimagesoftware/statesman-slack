@@ -39,7 +39,9 @@ spec:
             - configMapRef:
                 name: slack-env
             - secretRef:
-                name: credentials
+                name: common
+            - secretRef:
+                name: slack
           env: []
           resources:
             requests:
