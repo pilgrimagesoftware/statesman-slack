@@ -1,0 +1,63 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: slack
+  labels:
+    app: statesman
+
+spec:
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: statesman
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: statesman
+        version: v1
+    spec:
+      serviceAccountName: slack
+      containers:
+        - name: app
+          image: ghcr.io/pilgrimagesoftware/statesman-slack:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000
+              name: api
+          envFrom:
+            - configMapRef:
+                name: common
+            - configMapRef:
+                name: slack
+            - configMapRef:
+                name: slack-env
+            - secretRef:
+                name: credentials
+          env: []
+          resources:
+            requests:
+              cpu: "20m"
+              memory: "55Mi"
+            limits:
+              cpu: "50m"
+              memory: "200Mi"
+          # livenessProbe:
+          #   httpGet:
+          #     path: /_status/healthz
+          #     port: 5000
+          #   initialDelaySeconds: 90
+          #   timeoutSeconds: 10
+          # readinessProbe:
+          #   httpGet:
+          #     path: /_status/healthz
+          #     port: 5000
+          #   initialDelaySeconds: 30
+          #   timeoutSeconds: 10
+      restartPolicy: Always

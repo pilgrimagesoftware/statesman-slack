@@ -1,0 +1,21 @@
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+
+metadata:
+  name: slack
+
+spec:
+  entryPoints:
+    - web
+  routes:
+    - match: Host(`slack.statesman.pilgrimagesoftare.com`)
+      kind: Rule
+      services:
+        - name: slack
+          port: 8900
+          passHostHeader: true
+          responseForwarding:
+            flushInterval: 100ms
+      middlewares:
+        - name: cors-headers

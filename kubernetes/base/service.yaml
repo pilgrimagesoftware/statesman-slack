@@ -1,0 +1,16 @@
+---
+kind: Service
+apiVersion: v1
+
+metadata:
+  name: slack
+
+spec:
+  type: LoadBalancer
+  selector:
+    app: slack
+    version: v1
+  ports:
+    - name: api
+      port: 8900
+      targetPort: api

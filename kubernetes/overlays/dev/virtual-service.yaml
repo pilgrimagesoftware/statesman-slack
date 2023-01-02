@@ -1,0 +1,29 @@
+---
+# See more at https://istio.io/docs/reference/config/networking/virtual-service/
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+
+metadata:
+  name: slack
+
+spec:
+  hosts:
+    - slack.statesman.critical-failure.org
+  gateways:
+    - slack-gateway
+  http:
+    - route:
+        - destination:
+            host: slack.statesman.svc.cluster.local
+            port:
+              number: 8901
+  tls:
+    - match:
+        - port: 443
+          sniHosts:
+            - slack.statesman.critical-failure.org
+      route:
+        - destination:
+            host: slack.statesman.svc.cluster.local
+            port:
+              number: 8901

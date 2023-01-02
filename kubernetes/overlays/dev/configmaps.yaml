@@ -1,0 +1,22 @@
+---
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: slack-env
+
+data:
+  DEBUG: "True"
+  PORT: "5000"
+  LOG_LEVEL: DEBUG
+  DB_HOST: "postgres.internal.dev.pilgrimagesoftware.com"
+  DB_PORT: "5432"
+  DB_USER: statesman
+  DB_NAME: statesman
+  REDIS_HOST: redis.statesman.svc.cluster.local
+  REDIS_PORT: "6379"
+  REDIS_DB: "7"
+  SLACK_APP_ID: "A013WAF6Q9F"
+  SLACK_CLIENT_ID: "6043844880.1132355228321"
+  SENTRY_ENV: Development
+  BUILD_INFO_PATH: /app/build-info.json
