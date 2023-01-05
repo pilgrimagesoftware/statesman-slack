@@ -12,3 +12,4 @@ flask-redis
 slacker
 flask-script
 redis
+pika
