@@ -124,5 +124,5 @@ def error_handler(ex):
     return response
 
 
-from statesman_slack.blueprints.api.state import state
-from statesman_slack.blueprints.api.interact import interact
+# from statesman_slack.blueprints.api import state
+from statesman_slack.blueprints.api import interact
