@@ -3,19 +3,20 @@ apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 
 metadata:
-  name: slack
+  name: slack-v1
 
 spec:
   entryPoints:
     - web
   routes:
-    - match: Host(`slack.statesman.pilgrimagesoftare.com`)
+    - match: Host(`statesman.pilgrimagesoftare.com`) && (PathPrefix(`/api/0/slack/`) || PathPrefix(`/api/1/slack/`))
       kind: Rule
       services:
-        - name: slack
-          port: 8900
+        - name: slack-v1
+          port: 5000
           passHostHeader: true
           responseForwarding:
             flushInterval: 100ms
       middlewares:
         - name: cors-headers
+        - name: strip-slack-prefix

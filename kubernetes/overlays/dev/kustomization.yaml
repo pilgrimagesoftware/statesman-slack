@@ -10,8 +10,7 @@ resources:
   - secrets.yaml
   - destination-rules.yaml
   - virtual-service.yaml
-  - gateway.yaml
-  - ingress-route.yaml
+  - ingress.yaml
   - middlewares.yaml
   - hpa.yaml
   - pdb.yaml
