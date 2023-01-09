@@ -3,14 +3,16 @@ kind: Service
 apiVersion: v1
 
 metadata:
-  name: slack
+  name: slack-v1
 
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
-    app: slack
+    app: statesman
     version: v1
+    component: slack
   ports:
     - name: api
-      port: 8900
+      port: 5000
       targetPort: api
+      protocol: TCP
