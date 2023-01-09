@@ -6,4 +6,4 @@ metadata:
     name: slack
 
 spec:
-    replicas: 0
+    replicas: 1
