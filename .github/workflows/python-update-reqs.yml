@@ -4,6 +4,12 @@ on:
     workflow_dispatch:
     repository_dispatch:
         types: []
+    schedule:
+        - cron: "15 2 * * 0"
+    push:
+        branches: [develop]
+        paths:
+            - "requirements/**"
 
 jobs:
     update-reqs:
