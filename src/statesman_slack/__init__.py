@@ -8,7 +8,6 @@ import os
 from statesman_slack import constants
 from sentry_sdk.integrations.redis import RedisIntegration
 from sentry_sdk.integrations.flask import FlaskIntegration
-from sentry_sdk.integrations.sqlalchemy import SqlalchemyIntegration
 from dotenv import load_dotenv, find_dotenv
 
 
@@ -17,12 +16,14 @@ if ENV_FILE:
     load_dotenv(ENV_FILE)
 
 
-sentry_sdk.init(dsn=os.environ[constants.SENTRY_DSN],
-                environment=os.environ.get(constants.SENTRY_ENV) or 'Development',
-                integrations=[
-                    FlaskIntegration(),
-                    ],
+sentry_sdk.init(
+    dsn=os.environ[constants.SENTRY_DSN],
+    environment=os.environ.get(constants.SENTRY_ENV) or "Development",
+    integrations=[
+        FlaskIntegration(),
+    ],
     traces_sample_rate=1.0,
     _experiments={
         "profiles_sample_rate": 1.0,
-    },)
+    },
+)

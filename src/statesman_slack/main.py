@@ -17,23 +17,18 @@ from flask_executor import Executor
 
 
 def create_app(app_name=constants.APPLICATION_NAME):
-    dictConfig({
-        'version': 1,
-        'formatters': {
-            'default': {
-                'format': '[%(asctime)s] %(levelname)s %(pathname)s %(funcName)s, line %(lineno)d: %(message)s',
-            }
-        },
-        'handlers': {'wsgi': {
-            'class': 'logging.StreamHandler',
-            'stream': 'ext://flask.logging.wsgi_errors_stream',
-            'formatter': 'default'
-        }},
-        'root': {
-            'level': 'INFO',
-            'handlers': ['wsgi']
+    dictConfig(
+        {
+            "version": 1,
+            "formatters": {
+                "default": {
+                    "format": "[%(asctime)s] %(levelname)s %(pathname)s %(funcName)s, line %(lineno)d: %(message)s",
+                }
+            },
+            "handlers": {"wsgi": {"class": "logging.StreamHandler", "stream": "ext://flask.logging.wsgi_errors_stream", "formatter": "default"}},
+            "root": {"level": "INFO", "handlers": ["wsgi"]},
         }
-    })
+    )
 
     app = Flask(app_name)
     app.config.from_object("statesman_slack.config.BaseConfig")
@@ -46,11 +41,17 @@ def create_app(app_name=constants.APPLICATION_NAME):
 
     app.executor = Executor(app)
 
-    from statesman_slack.blueprints.api import blueprint as api_blueprint
-    app.register_blueprint(api_blueprint, url_prefix="/api/v1")
+    from statesman_slack.blueprints.api.interact import blueprint as interact_blueprint
+
+    app.register_blueprint(interact_blueprint)
 
     from statesman_slack.blueprints.health import blueprint as health_blueprint
-    app.register_blueprint(health_blueprint, url_prefix="/health")
+
+    app.register_blueprint(health_blueprint)
+
+    from statesman_slack.messaging.consumer import consumer_thread
+
+    app.consumer_thread = consumer_thread
 
     print(app.url_map)
 
