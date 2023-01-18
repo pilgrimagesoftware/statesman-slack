@@ -2,6 +2,7 @@ flask
 flask-dotenv
 flask-executor
 flask-inputs
+flask-limiter[redis]
 flask-redis
 flask-script
 flask-session
@@ -11,6 +12,6 @@ python-dotenv
 pyyaml
 redis
 requests
-sentry-sdk[flask]==1.9.8
+sentry-sdk[flask]==1.12.1
 slacker
 uwsgi
