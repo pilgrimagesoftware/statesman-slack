@@ -76,7 +76,7 @@ pygments==2.14.0
     # via rich
 pyrsistent==0.19.3
     # via jsonschema
-python-dotenv==0.21.0
+python-dotenv==0.21.1
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in

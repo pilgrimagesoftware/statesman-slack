@@ -168,7 +168,7 @@ pytest==7.2.1
     #   pytest-cov
 pytest-cov==4.0.0
     # via -r requirements/tests.in
-python-dotenv==0.21.0
+python-dotenv==0.21.1
     # via -r requirements/app.in
 pytz==2022.7.1
     # via babel
@@ -237,7 +237,7 @@ tox==4.2.6
     # via -r requirements/tests.in
 typer[all]==0.7.0
     # via rstcheck
-types-docutils==0.19.1.1
+types-docutils==0.19.1.2
     # via rstcheck-core
 typing-extensions==4.4.0
     # via
