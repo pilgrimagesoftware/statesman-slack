@@ -44,8 +44,6 @@ deprecated==1.2.13
     # via limits
 distlib==0.3.6
     # via virtualenv
-exceptiongroup==1.1.0
-    # via pytest
 filelock==3.9.0
     # via
     #   tox
@@ -144,13 +142,7 @@ sentry-sdk[flask]==1.12.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
-tomli==2.0.1
-    # via
-    #   coverage
-    #   pyproject-api
-    #   pytest
-    #   tox
-tox==4.2.6
+tox==4.3.5
     # via -r requirements/tests.in
 typing-extensions==4.4.0
     # via
