@@ -16,7 +16,7 @@ blinker==1.5
     # via
     #   -r requirements/tests.in
     #   sentry-sdk
-cachelib==0.10.1
+cachelib==0.10.2
     # via flask-session
 cachetools==5.3.0
     # via tox

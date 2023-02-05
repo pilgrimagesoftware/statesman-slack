@@ -14,7 +14,7 @@ babel==2.11.0
     # via sphinx
 blinker==1.5
     # via sentry-sdk
-cachelib==0.10.1
+cachelib==0.10.2
     # via flask-session
 certifi==2022.12.7
     # via
@@ -149,7 +149,7 @@ sphinxcontrib-applehelp==1.0.4
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
     # via sphinx
-sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-htmlhelp==2.0.1
     # via sphinx
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
