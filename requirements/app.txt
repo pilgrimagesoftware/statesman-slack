@@ -92,7 +92,7 @@ requests==2.28.2
     #   slacker
 rich==13.3.2
     # via flask-limiter
-sentry-sdk[flask]==1.16.0
+sentry-sdk[flask]==1.17.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
