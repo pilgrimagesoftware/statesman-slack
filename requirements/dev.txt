@@ -8,8 +8,6 @@ alabaster==0.7.13
     # via sphinx
 asgiref==3.6.0
     # via -r requirements/tests.in
-async-timeout==4.0.2
-    # via redis
 attrs==22.2.0
     # via
     #   jsonschema
@@ -63,8 +61,6 @@ docutils==0.18.1
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-exceptiongroup==1.1.1
-    # via pytest
 filelock==3.10.0
     # via
     #   tox
@@ -173,7 +169,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in
-redis==4.5.1
+redis==4.5.2
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -223,15 +219,6 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-tomli==2.0.1
-    # via
-    #   black
-    #   build
-    #   coverage
-    #   pyproject-api
-    #   pyproject-hooks
-    #   pytest
-    #   tox
 tox==4.4.2
     # via -r requirements/tests.in
 typer[all]==0.7.0

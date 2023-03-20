@@ -6,8 +6,6 @@
 #
 alabaster==0.7.13
     # via sphinx
-async-timeout==4.0.2
-    # via redis
 attrs==22.2.0
     # via jsonschema
 babel==2.12.1
@@ -107,7 +105,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in
-redis==4.5.1
+redis==4.5.2
     # via
     #   -r requirements/app.in
     #   flask-redis
