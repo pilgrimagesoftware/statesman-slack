@@ -109,7 +109,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in
-redis==4.5.3
+redis==4.5.4
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -126,7 +126,7 @@ rstcheck==6.1.2
     # via -r requirements/docs.in
 rstcheck-core==1.0.3
     # via rstcheck
-sentry-sdk[flask]==1.17.0
+sentry-sdk[flask]==1.18.0
     # via -r requirements/app.in
 shellingham==1.5.0.post1
     # via typer
@@ -161,7 +161,7 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 typer[all]==0.7.0
     # via rstcheck
-types-docutils==0.19.1.6
+types-docutils==0.19.1.7
     # via rstcheck-core
 typing-extensions==4.5.0
     # via

@@ -44,7 +44,7 @@ distlib==0.3.6
     # via virtualenv
 exceptiongroup==1.1.1
     # via pytest
-filelock==3.10.5
+filelock==3.10.7
     # via
     #   tox
     #   virtualenv
@@ -134,7 +134,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in
-redis==4.5.3
+redis==4.5.4
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -142,9 +142,9 @@ requests==2.28.2
     # via
     #   -r requirements/app.in
     #   slacker
-rich==13.3.2
+rich==13.3.3
     # via flask-limiter
-sentry-sdk[flask]==1.17.0
+sentry-sdk[flask]==1.18.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
