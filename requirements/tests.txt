@@ -12,7 +12,7 @@ attrs==22.2.0
     # via
     #   jsonschema
     #   pytest
-blinker==1.5
+blinker==1.6
     # via
     #   -r requirements/tests.in
     #   sentry-sdk
@@ -42,8 +42,6 @@ deprecated==1.2.13
     # via limits
 distlib==0.3.6
     # via virtualenv
-exceptiongroup==1.1.1
-    # via pytest
 filelock==3.10.7
     # via
     #   tox
@@ -148,16 +146,11 @@ sentry-sdk[flask]==1.18.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
-tomli==2.0.1
-    # via
-    #   coverage
-    #   pyproject-api
-    #   pytest
-    #   tox
 tox==4.4.2
     # via -r requirements/tests.in
 typing-extensions==4.5.0
     # via
+    #   blinker
     #   flask-limiter
     #   limits
 urllib3==1.26.15
