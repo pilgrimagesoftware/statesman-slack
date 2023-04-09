@@ -11,14 +11,12 @@ asgiref==3.6.0
 async-timeout==4.0.2
     # via redis
 attrs==22.2.0
-    # via
-    #   jsonschema
-    #   pytest
+    # via jsonschema
 babel==2.12.1
     # via sphinx
 black==23.3.0
     # via -r requirements/dev.in
-blinker==1.5
+blinker==1.6
     # via
     #   -r requirements/tests.in
     #   sentry-sdk
@@ -48,7 +46,7 @@ colorama==0.4.6
     #   typer
 commonmark==0.9.1
     # via rich
-coverage[toml]==7.2.2
+coverage[toml]==7.2.3
     # via
     #   coverage-badge
     #   pytest-cov
@@ -65,7 +63,7 @@ docutils==0.18.1
     #   sphinx-tabs
 exceptiongroup==1.1.1
     # via pytest
-filelock==3.10.7
+filelock==3.11.0
     # via
     #   tox
     #   virtualenv
@@ -165,7 +163,7 @@ pyproject-hooks==1.0.0
     # via build
 pyrsistent==0.19.3
     # via jsonschema
-pytest==7.2.2
+pytest==7.3.0
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -192,7 +190,7 @@ rstcheck==6.1.2
     # via -r requirements/docs.in
 rstcheck-core==1.0.3
     # via rstcheck
-sentry-sdk[flask]==1.18.0
+sentry-sdk[flask]==1.19.1
     # via -r requirements/app.in
 shellingham==1.5.0.post1
     # via typer
@@ -242,6 +240,7 @@ types-docutils==0.19.1.7
     # via rstcheck-core
 typing-extensions==4.5.0
     # via
+    #   blinker
     #   flask-limiter
     #   limits
     #   pydantic

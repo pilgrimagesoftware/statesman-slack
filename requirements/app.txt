@@ -8,7 +8,7 @@ async-timeout==4.0.2
     # via redis
 attrs==22.2.0
     # via jsonschema
-blinker==1.5
+blinker==1.6
     # via sentry-sdk
 cachelib==0.10.2
     # via flask-session
@@ -94,12 +94,13 @@ requests==2.28.2
     #   slacker
 rich==13.3.3
     # via flask-limiter
-sentry-sdk[flask]==1.18.0
+sentry-sdk[flask]==1.19.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
 typing-extensions==4.5.0
     # via
+    #   blinker
     #   flask-limiter
     #   limits
 urllib3==1.26.15
