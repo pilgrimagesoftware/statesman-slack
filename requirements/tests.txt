@@ -10,7 +10,7 @@ async-timeout==4.0.2
     # via redis
 attrs==22.2.0
     # via jsonschema
-blinker==1.6
+blinker==1.6.2
     # via
     #   -r requirements/tests.in
     #   sentry-sdk
@@ -100,7 +100,7 @@ mdurl==0.1.2
     # via markdown-it-py
 ordered-set==4.1.0
     # via flask-limiter
-packaging==23.0
+packaging==23.1
     # via
     #   limits
     #   pyproject-api
@@ -116,13 +116,13 @@ pluggy==1.0.0
     # via
     #   pytest
     #   tox
-pygments==2.14.0
+pygments==2.15.0
     # via rich
 pyproject-api==1.5.1
     # via tox
 pyrsistent==0.19.3
     # via jsonschema
-pytest==7.3.0
+pytest==7.3.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -140,7 +140,7 @@ requests==2.28.2
     # via
     #   -r requirements/app.in
     #   slacker
-rich==13.3.3
+rich==13.3.4
     # via flask-limiter
 sentry-sdk[flask]==1.19.1
     # via -r requirements/app.in
@@ -156,7 +156,6 @@ tox==4.4.2
     # via -r requirements/tests.in
 typing-extensions==4.5.0
     # via
-    #   blinker
     #   flask-limiter
     #   limits
 urllib3==1.26.15
