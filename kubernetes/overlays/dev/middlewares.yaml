@@ -1,12 +1,12 @@
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: Middleware
+# ---
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: Middleware
 
-metadata:
-  name: strip-slack-prefix
+# metadata:
+#   name: strip-slack-prefix
 
-spec:
-  stripPrefix:
-    prefixes:
-      - /api/0/slack
-      - /api/1/slack
+# spec:
+#   stripPrefix:
+#     prefixes:
+#       - /api/0/slack
+#       - /api/1/slack
