@@ -134,7 +134,7 @@ slacker==0.14.0
     # via -r requirements/app.in
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==6.1.3
+sphinx==6.2.0
     # via
     #   -r requirements/docs.in
     #   pallets-sphinx-themes
