@@ -8,9 +8,8 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: statesman
+    app: slack-receiver
     version: v1
-    component: slack
   ports:
     - name: api
       port: 5000
