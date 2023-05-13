@@ -17,7 +17,7 @@ spec:
             prefix: /api/0/slack/
       route:
         - destination:
-            host: slack.statesman.svc.cluster.local
+            host: slack-v1.statesman.svc.cluster.local
             port:
               number: 5000
 
@@ -40,6 +40,6 @@ spec:
             prefix: /api/1/slack/
       route:
         - destination:
-            host: slack.statesman.svc.cluster.local
+            host: slack-v1.statesman.svc.cluster.local
             port:
               number: 5000
