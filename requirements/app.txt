@@ -61,13 +61,14 @@ jinja2==3.1.2
     # via flask
 jsonschema==4.17.3
     # via -r requirements/app.in
-limits==3.4.0
+limits==3.5.0
     # via flask-limiter
 markdown-it-py==2.2.0
     # via rich
 markupsafe==2.1.2
     # via
     #   jinja2
+    #   sentry-sdk
     #   werkzeug
     #   wtforms
 mdurl==0.1.2
@@ -96,7 +97,7 @@ requests==2.30.0
     #   slacker
 rich==13.3.5
     # via flask-limiter
-sentry-sdk[flask]==1.22.2
+sentry-sdk[flask]==1.23.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
