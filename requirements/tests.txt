@@ -43,7 +43,7 @@ distlib==0.3.6
     # via virtualenv
 exceptiongroup==1.1.1
     # via pytest
-filelock==3.12.0
+filelock==3.12.1
     # via
     #   tox
     #   virtualenv
@@ -110,7 +110,7 @@ packaging==23.1
     #   tox
 pika==1.3.2
     # via -r requirements/app.in
-platformdirs==3.5.1
+platformdirs==3.5.3
     # via
     #   tox
     #   virtualenv
@@ -124,7 +124,7 @@ pyproject-api==1.5.1
     # via tox
 pyrsistent==0.19.3
     # via jsonschema
-pytest==7.3.1
+pytest==7.3.2
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -144,7 +144,7 @@ requests==2.31.0
     #   slacker
 rich==13.4.1
     # via flask-limiter
-sentry-sdk[flask]==1.25.0
+sentry-sdk[flask]==1.25.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -161,7 +161,7 @@ typing-extensions==4.6.3
     #   asgiref
     #   flask-limiter
     #   limits
-urllib3==2.0.2
+urllib3==2.0.3
     # via
     #   requests
     #   sentry-sdk
@@ -169,7 +169,7 @@ uwsgi==2.0.21
     # via -r requirements/app.in
 virtualenv==20.23.0
     # via tox
-werkzeug==2.3.4
+werkzeug==2.3.6
     # via flask
 wrapt==1.15.0
     # via deprecated

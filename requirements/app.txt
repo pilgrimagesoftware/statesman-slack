@@ -97,7 +97,7 @@ requests==2.31.0
     #   slacker
 rich==13.4.1
     # via flask-limiter
-sentry-sdk[flask]==1.25.0
+sentry-sdk[flask]==1.25.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -105,13 +105,13 @@ typing-extensions==4.6.3
     # via
     #   flask-limiter
     #   limits
-urllib3==2.0.2
+urllib3==2.0.3
     # via
     #   requests
     #   sentry-sdk
 uwsgi==2.0.21
     # via -r requirements/app.in
-werkzeug==2.3.4
+werkzeug==2.3.6
     # via flask
 wrapt==1.15.0
     # via deprecated
