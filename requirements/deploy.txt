@@ -87,7 +87,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in
-redis==4.5.5
+redis==4.6.0
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -101,7 +101,7 @@ sentry-sdk[flask]==1.26.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
-typing-extensions==4.6.3
+typing-extensions==4.7.0
     # via
     #   flask-limiter
     #   limits

@@ -134,7 +134,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in
-redis==4.5.5
+redis==4.6.0
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -156,7 +156,7 @@ tomli==2.0.1
     #   tox
 tox==4.4.2
     # via -r requirements/tests.in
-typing-extensions==4.6.3
+typing-extensions==4.7.0
     # via
     #   asgiref
     #   flask-limiter

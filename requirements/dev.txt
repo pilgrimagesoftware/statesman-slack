@@ -152,7 +152,7 @@ pluggy==1.2.0
     # via
     #   pytest
     #   tox
-pydantic==1.10.9
+pydantic==1.10.10
     # via rstcheck-core
 pygments==2.15.1
     # via
@@ -175,7 +175,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0
     # via -r requirements/app.in
-redis==4.5.5
+redis==4.6.0
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -240,7 +240,7 @@ typer[all]==0.7.0
     # via rstcheck
 types-docutils==0.19.1.9
     # via rstcheck-core
-typing-extensions==4.6.3
+typing-extensions==4.7.0
     # via
     #   asgiref
     #   flask-limiter
