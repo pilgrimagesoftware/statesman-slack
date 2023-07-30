@@ -141,13 +141,13 @@ packaging==23.1
     #   tox
 pallets-sphinx-themes==2.1.1
     # via -r requirements/docs.in
-pathspec==0.11.1
+pathspec==0.11.2
     # via black
 pika==1.3.2
     # via -r requirements/app.in
 pip-tools==6.12.2
     # via -r requirements/dev.in
-platformdirs==3.9.1
+platformdirs==3.10.0
     # via
     #   black
     #   tox
@@ -156,7 +156,7 @@ pluggy==1.2.0
     # via
     #   pytest
     #   tox
-pydantic==1.10.11
+pydantic==1.10.12
     # via rstcheck-core
 pygments==2.15.1
     # via
@@ -261,9 +261,9 @@ urllib3==2.0.4
     # via
     #   requests
     #   sentry-sdk
-uwsgi==2.0.21
+uwsgi==2.0.22
     # via -r requirements/app.in
-virtualenv==20.24.1
+virtualenv==20.24.2
     # via tox
 werkzeug==2.3.6
     # via flask
