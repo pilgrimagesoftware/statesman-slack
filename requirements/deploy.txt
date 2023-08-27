@@ -26,7 +26,7 @@ click==8.1.7
     # via flask
 deprecated==1.2.14
     # via limits
-flask==2.3.2
+flask==2.3.3
     # via
     #   -r requirements/app.in
     #   flask-dotenv
@@ -43,7 +43,7 @@ flask-executor==1.0.0
     # via -r requirements/app.in
 flask-inputs==0.3.0
     # via -r requirements/app.in
-flask-limiter[redis]==3.3.1
+flask-limiter[redis]==3.4.1
     # via -r requirements/app.in
 flask-redis==0.4.0
     # via -r requirements/app.in
