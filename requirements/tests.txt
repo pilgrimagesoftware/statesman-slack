@@ -45,7 +45,7 @@ distlib==0.3.7
     # via virtualenv
 exceptiongroup==1.1.3
     # via pytest
-filelock==3.12.3
+filelock==3.12.4
     # via
     #   tox
     #   virtualenv
@@ -151,11 +151,11 @@ requests==2.31.0
     #   slacker
 rich==13.5.2
     # via flask-limiter
-rpds-py==0.10.2
+rpds-py==0.10.3
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.30.0
+sentry-sdk[flask]==1.31.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -170,7 +170,6 @@ tox==4.4.2
 typing-extensions==4.7.1
     # via
     #   asgiref
-    #   filelock
     #   flask-limiter
     #   limits
 urllib3==2.0.4
