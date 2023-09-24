@@ -80,7 +80,7 @@ greenlet==2.0.2
     # via -r requirements/tests.in
 idna==3.4
     # via requests
-importlib-resources==6.0.1
+importlib-resources==6.1.0
     # via limits
 iniconfig==2.0.0
     # via pytest
@@ -88,7 +88,7 @@ itsdangerous==2.1.2
     # via flask
 jinja2==3.1.2
     # via flask
-jsonschema==4.19.0
+jsonschema==4.19.1
     # via -r requirements/app.in
 jsonschema-specifications==2023.7.1
     # via jsonschema
@@ -149,7 +149,7 @@ requests==2.31.0
     # via
     #   -r requirements/app.in
     #   slacker
-rich==13.5.2
+rich==13.5.3
     # via flask-limiter
 rpds-py==0.10.3
     # via
@@ -167,12 +167,12 @@ tomli==2.0.1
     #   tox
 tox==4.4.2
     # via -r requirements/tests.in
-typing-extensions==4.7.1
+typing-extensions==4.8.0
     # via
     #   asgiref
     #   flask-limiter
     #   limits
-urllib3==2.0.4
+urllib3==2.0.5
     # via
     #   requests
     #   sentry-sdk
