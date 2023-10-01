@@ -27,7 +27,7 @@ certifi==2023.7.22
     #   sentry-sdk
 chardet==5.2.0
     # via tox
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
     # via requests
 click==8.1.7
     # via flask
@@ -136,7 +136,7 @@ python-dotenv==1.0.0
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.0
+redis==5.0.1
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -149,7 +149,7 @@ requests==2.31.0
     # via
     #   -r requirements/app.in
     #   slacker
-rich==13.5.3
+rich==13.6.0
     # via flask-limiter
 rpds-py==0.10.3
     # via
@@ -180,7 +180,7 @@ uwsgi==2.0.22
     # via -r requirements/app.in
 virtualenv==20.24.5
     # via tox
-werkzeug==2.3.7
+werkzeug==3.0.0
     # via flask
 wrapt==1.15.0
     # via deprecated
