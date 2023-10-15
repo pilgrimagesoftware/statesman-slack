@@ -201,7 +201,7 @@ rich==13.6.0
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.10.4
+rpds-py==0.10.6
     # via
     #   jsonschema
     #   referencing
@@ -209,7 +209,7 @@ rstcheck==6.2.0
     # via -r requirements/docs.in
 rstcheck-core==1.1.1
     # via rstcheck
-sentry-sdk[flask]==1.31.0
+sentry-sdk[flask]==1.32.0
     # via -r requirements/app.in
 shellingham==1.5.3
     # via typer
@@ -283,7 +283,7 @@ wheel==0.41.2
     # via pip-tools
 wrapt==1.15.0
     # via deprecated
-wtforms==3.0.1
+wtforms==3.1.0
     # via flask-inputs
 
 # The following packages are considered to be unsafe in a requirements file:

@@ -104,11 +104,11 @@ requests==2.31.0
     #   slacker
 rich==13.6.0
     # via flask-limiter
-rpds-py==0.10.4
+rpds-py==0.10.6
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.31.0
+sentry-sdk[flask]==1.32.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -128,5 +128,5 @@ werkzeug==3.0.0
     # via flask
 wrapt==1.15.0
     # via deprecated
-wtforms==3.0.1
+wtforms==3.1.0
     # via flask-inputs
