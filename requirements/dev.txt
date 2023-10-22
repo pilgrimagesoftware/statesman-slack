@@ -18,7 +18,7 @@ attrs==23.1.0
     #   referencing
 babel==2.13.0
     # via sphinx
-black==23.9.1
+black==23.10.0
     # via -r requirements/dev.in
 blinker==1.6.3
     # via
@@ -259,7 +259,9 @@ tomli==2.0.1
 tox==4.4.2
     # via -r requirements/tests.in
 typer[all]==0.9.0
-    # via rstcheck
+    # via
+    #   rstcheck
+    #   typer
 typing-extensions==4.8.0
     # via
     #   asgiref
@@ -269,7 +271,7 @@ typing-extensions==4.8.0
     #   pydantic
     #   pydantic-core
     #   typer
-urllib3==2.0.6
+urllib3==2.0.7
     # via
     #   requests
     #   sentry-sdk
