@@ -20,7 +20,7 @@ certifi==2023.7.22
     # via
     #   requests
     #   sentry-sdk
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
     # via requests
 click==8.1.7
     # via flask
@@ -124,7 +124,7 @@ uwsgi==2.0.22
     # via
     #   -r requirements/app.in
     #   -r requirements/deploy.in
-werkzeug==3.0.0
+werkzeug==3.0.1
     # via flask
 wrapt==1.15.0
     # via deprecated

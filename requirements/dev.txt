@@ -16,9 +16,9 @@ attrs==23.1.0
     # via
     #   jsonschema
     #   referencing
-babel==2.13.0
+babel==2.13.1
     # via sphinx
-black==23.10.0
+black==23.10.1
     # via -r requirements/dev.in
 blinker==1.6.3
     # via
@@ -29,7 +29,7 @@ build==1.0.3
     # via pip-tools
 cachelib==0.10.2
     # via flask-session
-cachetools==5.3.1
+cachetools==5.3.2
     # via tox
 certifi==2023.7.22
     # via
@@ -37,7 +37,7 @@ certifi==2023.7.22
     #   sentry-sdk
 chardet==5.2.0
     # via tox
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
     # via requests
 click==8.1.7
     # via
@@ -66,7 +66,7 @@ docutils==0.18.1
     #   sphinx-tabs
 exceptiongroup==1.1.3
     # via pytest
-filelock==3.12.4
+filelock==3.13.0
     # via
     #   tox
     #   virtualenv
@@ -173,7 +173,7 @@ pyproject-api==1.6.1
     # via tox
 pyproject-hooks==1.0.0
     # via build
-pytest==7.4.2
+pytest==7.4.3
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -211,7 +211,7 @@ rstcheck-core==1.1.1
     # via rstcheck
 sentry-sdk[flask]==1.32.0
     # via -r requirements/app.in
-shellingham==1.5.3
+shellingham==1.5.4
     # via typer
 slacker==0.14.0
     # via -r requirements/app.in
@@ -231,7 +231,7 @@ sphinx==6.1.3
     #   sphinxcontrib-serializinghtml
 sphinx-issues==3.0.1
     # via -r requirements/docs.in
-sphinx-tabs==3.4.1
+sphinx-tabs==3.4.4
     # via -r requirements/docs.in
 sphinxcontrib-applehelp==1.0.7
     # via sphinx
@@ -277,9 +277,9 @@ urllib3==2.0.7
     #   sentry-sdk
 uwsgi==2.0.22
     # via -r requirements/app.in
-virtualenv==20.24.5
+virtualenv==20.24.6
     # via tox
-werkzeug==3.0.0
+werkzeug==3.0.1
     # via flask
 wheel==0.41.2
     # via pip-tools
