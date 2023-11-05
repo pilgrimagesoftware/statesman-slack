@@ -20,7 +20,7 @@ babel==2.13.1
     # via sphinx
 black==23.10.1
     # via -r requirements/dev.in
-blinker==1.6.3
+blinker==1.7.0
     # via
     #   -r requirements/tests.in
     #   flask
@@ -37,7 +37,7 @@ certifi==2023.7.22
     #   sentry-sdk
 chardet==5.2.0
     # via tox
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via
@@ -66,7 +66,7 @@ docutils==0.18.1
     #   sphinx-tabs
 exceptiongroup==1.1.3
     # via pytest
-filelock==3.13.0
+filelock==3.13.1
     # via
     #   tox
     #   virtualenv
@@ -113,7 +113,7 @@ jinja2==3.1.2
     # via
     #   flask
     #   sphinx
-jsonschema==4.19.1
+jsonschema==4.19.2
     # via -r requirements/app.in
 jsonschema-specifications==2023.7.1
     # via jsonschema
@@ -201,7 +201,7 @@ rich==13.6.0
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.10.6
+rpds-py==0.12.0
     # via
     #   jsonschema
     #   referencing
@@ -209,7 +209,7 @@ rstcheck==6.2.0
     # via -r requirements/docs.in
 rstcheck-core==1.1.1
     # via rstcheck
-sentry-sdk[flask]==1.32.0
+sentry-sdk[flask]==1.34.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -275,17 +275,17 @@ urllib3==2.0.7
     # via
     #   requests
     #   sentry-sdk
-uwsgi==2.0.22
+uwsgi==2.0.23
     # via -r requirements/app.in
 virtualenv==20.24.6
     # via tox
 werkzeug==3.0.1
     # via flask
-wheel==0.41.2
+wheel==0.41.3
     # via pip-tools
 wrapt==1.15.0
     # via deprecated
-wtforms==3.1.0
+wtforms==3.1.1
     # via flask-inputs
 
 # The following packages are considered to be unsafe in a requirements file:
