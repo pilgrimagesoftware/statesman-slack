@@ -115,7 +115,7 @@ jinja2==3.1.2
     #   sphinx
 jsonschema==4.20.0
     # via -r requirements/app.in
-jsonschema-specifications==2023.11.1
+jsonschema-specifications==2023.11.2
     # via jsonschema
 limits[redis]==3.7.0
     # via flask-limiter
@@ -188,7 +188,7 @@ redis==5.0.1
     #   -r requirements/app.in
     #   flask-redis
     #   limits
-referencing==0.31.0
+referencing==0.31.1
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -201,7 +201,7 @@ rich==13.7.0
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.13.1
+rpds-py==0.13.2
     # via
     #   jsonschema
     #   referencing
@@ -209,7 +209,7 @@ rstcheck==6.2.0
     # via -r requirements/docs.in
 rstcheck-core==1.2.0
     # via rstcheck
-sentry-sdk[flask]==1.37.1
+sentry-sdk[flask]==1.38.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -277,11 +277,11 @@ urllib3==2.1.0
     #   sentry-sdk
 uwsgi==2.0.23
     # via -r requirements/app.in
-virtualenv==20.24.7
+virtualenv==20.25.0
     # via tox
 werkzeug==3.0.1
     # via flask
-wheel==0.41.3
+wheel==0.42.0
     # via pip-tools
 wrapt==1.16.0
     # via deprecated

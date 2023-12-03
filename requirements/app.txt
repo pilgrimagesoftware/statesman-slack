@@ -63,7 +63,7 @@ jinja2==3.1.2
     # via flask
 jsonschema==4.20.0
     # via -r requirements/app.in
-jsonschema-specifications==2023.11.1
+jsonschema-specifications==2023.11.2
     # via jsonschema
 limits[redis]==3.7.0
     # via flask-limiter
@@ -94,7 +94,7 @@ redis==5.0.1
     #   -r requirements/app.in
     #   flask-redis
     #   limits
-referencing==0.31.0
+referencing==0.31.1
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -104,11 +104,11 @@ requests==2.31.0
     #   slacker
 rich==13.7.0
     # via flask-limiter
-rpds-py==0.13.1
+rpds-py==0.13.2
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.37.1
+sentry-sdk[flask]==1.38.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
