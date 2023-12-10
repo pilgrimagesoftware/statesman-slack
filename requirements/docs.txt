@@ -125,7 +125,7 @@ redis==5.0.1
     #   -r requirements/app.in
     #   flask-redis
     #   limits
-referencing==0.31.1
+referencing==0.32.0
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -188,7 +188,7 @@ typer[all]==0.9.0
     # via
     #   rstcheck
     #   typer
-typing-extensions==4.8.0
+typing-extensions==4.9.0
     # via
     #   flask-limiter
     #   limits
