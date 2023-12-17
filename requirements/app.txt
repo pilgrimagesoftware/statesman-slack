@@ -104,11 +104,11 @@ requests==2.31.0
     #   slacker
 rich==13.7.0
     # via flask-limiter
-rpds-py==0.13.2
+rpds-py==0.14.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.38.0
+sentry-sdk[flask]==1.39.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in

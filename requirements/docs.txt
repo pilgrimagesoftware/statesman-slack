@@ -14,7 +14,7 @@ attrs==23.1.0
     # via
     #   jsonschema
     #   referencing
-babel==2.13.1
+babel==2.14.0
     # via sphinx
 blinker==1.7.0
     # via
@@ -138,7 +138,7 @@ rich==13.7.0
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.13.2
+rpds-py==0.14.1
     # via
     #   jsonschema
     #   referencing
@@ -146,7 +146,7 @@ rstcheck==6.2.0
     # via -r requirements/docs.in
 rstcheck-core==1.2.0
     # via rstcheck
-sentry-sdk[flask]==1.38.0
+sentry-sdk[flask]==1.39.1
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
