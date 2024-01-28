@@ -33,7 +33,7 @@ click==8.1.7
     # via flask
 colorama==0.4.6
     # via tox
-coverage[toml]==7.4.0
+coverage[toml]==7.4.1
     # via
     #   coverage-badge
     #   pytest-cov
@@ -118,7 +118,7 @@ platformdirs==4.1.0
     # via
     #   tox
     #   virtualenv
-pluggy==1.3.0
+pluggy==1.4.0
     # via
     #   pytest
     #   tox
@@ -126,13 +126,13 @@ pygments==2.17.2
     # via rich
 pyproject-api==1.6.1
     # via tox
-pytest==7.4.4
+pytest==8.0.0
     # via
     #   -r requirements/tests.in
     #   pytest-cov
 pytest-cov==4.0.0
     # via -r requirements/tests.in
-python-dotenv==1.0.0
+python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
