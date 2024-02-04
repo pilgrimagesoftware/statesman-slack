@@ -16,7 +16,7 @@ blinker==1.7.0
     #   sentry-sdk
 cachelib==0.10.2
     # via flask-session
-certifi==2023.11.17
+certifi==2024.2.2
     # via
     #   requests
     #   sentry-sdk
@@ -69,7 +69,7 @@ limits[redis]==3.7.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.4
+markupsafe==2.1.5
     # via
     #   jinja2
     #   sentry-sdk
@@ -94,7 +94,7 @@ redis==5.0.1
     #   -r requirements/app.in
     #   flask-redis
     #   limits
-referencing==0.32.1
+referencing==0.33.0
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -108,7 +108,7 @@ rpds-py==0.17.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.39.2
+sentry-sdk[flask]==1.40.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -116,7 +116,7 @@ typing-extensions==4.9.0
     # via
     #   flask-limiter
     #   limits
-urllib3==2.1.0
+urllib3==2.2.0
     # via
     #   requests
     #   sentry-sdk
