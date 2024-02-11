@@ -17,7 +17,7 @@ blinker==1.7.0
     #   -r requirements/tests.in
     #   flask
     #   sentry-sdk
-cachelib==0.10.2
+cachelib==0.11.0
     # via flask-session
 cachetools==5.3.2
     # via tox
@@ -155,7 +155,7 @@ rpds-py==0.17.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.40.0
+sentry-sdk[flask]==1.40.3
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -176,7 +176,7 @@ urllib3==2.2.0
     # via
     #   requests
     #   sentry-sdk
-uwsgi==2.0.23
+uwsgi==2.0.24
     # via -r requirements/app.in
 virtualenv==20.25.0
     # via tox
