@@ -20,7 +20,7 @@ blinker==1.7.0
     # via
     #   flask
     #   sentry-sdk
-cachelib==0.11.0
+cachelib==0.12.0
     # via flask-session
 certifi==2024.2.2
     # via
@@ -58,7 +58,7 @@ flask-executor==1.0.0
     # via -r requirements/app.in
 flask-inputs==0.3.0
     # via -r requirements/app.in
-flask-limiter[redis]==3.5.0
+flask-limiter[redis]==3.5.1
     # via -r requirements/app.in
 flask-redis==0.4.0
     # via -r requirements/app.in
@@ -84,7 +84,7 @@ jsonschema==4.21.1
     # via -r requirements/app.in
 jsonschema-specifications==2023.12.1
     # via jsonschema
-limits[redis]==3.7.0
+limits[redis]==3.9.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -138,7 +138,7 @@ rich==13.7.0
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.17.1
+rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
@@ -146,7 +146,7 @@ rstcheck==6.2.0
     # via -r requirements/docs.in
 rstcheck-core==1.2.0
     # via rstcheck
-sentry-sdk[flask]==1.40.3
+sentry-sdk[flask]==1.40.4
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -180,9 +180,7 @@ sphinxcontrib-qthelp==1.0.7
 sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
 typer[all]==0.9.0
-    # via
-    #   rstcheck
-    #   typer
+    # via rstcheck
 typing-extensions==4.9.0
     # via
     #   flask-limiter
