@@ -51,7 +51,7 @@ flask-script==2.0.6
     # via -r requirements/app.in
 flask-session==0.6.0
     # via -r requirements/app.in
-future==0.18.3
+future==1.0.0
     # via flask-inputs
 idna==3.6
     # via requests
@@ -108,7 +108,7 @@ rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.40.4
+sentry-sdk[flask]==1.40.5
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -116,7 +116,7 @@ typing-extensions==4.9.0
     # via
     #   flask-limiter
     #   limits
-urllib3==2.2.0
+urllib3==2.2.1
     # via
     #   requests
     #   sentry-sdk
