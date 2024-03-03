@@ -19,7 +19,7 @@ blinker==1.7.0
     #   sentry-sdk
 cachelib==0.12.0
     # via flask-session
-cachetools==5.3.2
+cachetools==5.3.3
     # via tox
 certifi==2024.2.2
     # via
@@ -80,7 +80,7 @@ greenlet==2.0.2
     # via -r requirements/tests.in
 idna==3.6
     # via requests
-importlib-resources==6.1.1
+importlib-resources==6.1.2
     # via limits
 iniconfig==2.0.0
     # via pytest
@@ -136,7 +136,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.1
+redis==5.0.2
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -149,13 +149,13 @@ requests==2.31.0
     # via
     #   -r requirements/app.in
     #   slacker
-rich==13.7.0
+rich==13.7.1
     # via flask-limiter
 rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.40.5
+sentry-sdk[flask]==1.40.6
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -167,7 +167,7 @@ tomli==2.0.1
     #   tox
 tox==4.4.2
     # via -r requirements/tests.in
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via
     #   asgiref
     #   flask-limiter

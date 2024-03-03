@@ -55,7 +55,7 @@ future==1.0.0
     # via flask-inputs
 idna==3.6
     # via requests
-importlib-resources==6.1.1
+importlib-resources==6.1.2
     # via limits
 itsdangerous==2.1.2
     # via flask
@@ -89,7 +89,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.1
+redis==5.0.2
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -102,17 +102,17 @@ requests==2.31.0
     # via
     #   -r requirements/app.in
     #   slacker
-rich==13.7.0
+rich==13.7.1
     # via flask-limiter
 rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.40.5
+sentry-sdk[flask]==1.40.6
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via
     #   flask-limiter
     #   limits

@@ -25,11 +25,11 @@ blinker==1.7.0
     #   -r requirements/tests.in
     #   flask
     #   sentry-sdk
-build==1.0.3
+build==1.1.1
     # via pip-tools
 cachelib==0.12.0
     # via flask-session
-cachetools==5.3.2
+cachetools==5.3.3
     # via tox
 certifi==2024.2.2
     # via
@@ -103,7 +103,7 @@ idna==3.6
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-resources==6.1.1
+importlib-resources==6.1.2
     # via limits
 iniconfig==2.0.0
     # via pytest
@@ -160,7 +160,7 @@ pluggy==1.4.0
     # via
     #   pytest
     #   tox
-pydantic==2.6.2
+pydantic==2.6.3
     # via rstcheck-core
 pydantic-core==2.16.3
     # via pydantic
@@ -183,7 +183,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.1
+redis==5.0.2
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -197,7 +197,7 @@ requests==2.31.0
     #   -r requirements/app.in
     #   slacker
     #   sphinx
-rich==13.7.0
+rich==13.7.1
     # via
     #   flask-limiter
     #   typer
@@ -209,7 +209,7 @@ rstcheck==6.2.0
     # via -r requirements/docs.in
 rstcheck-core==1.2.0
     # via rstcheck
-sentry-sdk[flask]==1.40.5
+sentry-sdk[flask]==1.40.6
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -255,7 +255,7 @@ tox==4.4.2
     # via -r requirements/tests.in
 typer[all]==0.9.0
     # via rstcheck
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via
     #   asgiref
     #   black
