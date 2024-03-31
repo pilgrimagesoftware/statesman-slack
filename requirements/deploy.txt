@@ -14,6 +14,8 @@ blinker==1.7.0
     # via
     #   flask
     #   sentry-sdk
+cachelib==0.12.0
+    # via flask-session
 certifi==2024.2.2
     # via
     #   requests
@@ -47,7 +49,7 @@ flask-redis==0.4.0
     # via -r requirements/app.in
 flask-script==2.0.6
     # via -r requirements/app.in
-flask-session==0.7.0
+flask-session==0.8.0
     # via -r requirements/app.in
 future==1.0.0
     # via flask-inputs
@@ -108,7 +110,7 @@ rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.43.0
+sentry-sdk[flask]==1.44.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
