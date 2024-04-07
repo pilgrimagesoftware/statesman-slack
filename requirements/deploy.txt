@@ -110,11 +110,11 @@ rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.44.0
+sentry-sdk[flask]==1.44.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via
     #   flask-limiter
     #   limits
@@ -126,7 +126,7 @@ uwsgi==2.0.24
     # via
     #   -r requirements/app.in
     #   -r requirements/deploy.in
-werkzeug==3.0.1
+werkzeug==3.0.2
     # via flask
 wrapt==1.16.0
     # via deprecated
