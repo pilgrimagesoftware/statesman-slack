@@ -10,7 +10,7 @@ attrs==23.2.0
     # via
     #   jsonschema
     #   referencing
-blinker==1.7.0
+blinker==1.8.0
     # via
     #   flask
     #   sentry-sdk
@@ -43,7 +43,7 @@ flask-executor==1.0.0
     # via -r requirements/app.in
 flask-inputs==0.3.0
     # via -r requirements/app.in
-flask-limiter[redis]==3.5.1
+flask-limiter[redis]==3.6.0
     # via -r requirements/app.in
 flask-redis==0.4.0
     # via -r requirements/app.in
@@ -91,12 +91,12 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.3
+redis==5.0.4
     # via
     #   -r requirements/app.in
     #   flask-redis
     #   limits
-referencing==0.34.0
+referencing==0.35.0
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -110,7 +110,7 @@ rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==1.45.0
+sentry-sdk[flask]==2.0.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
