@@ -160,9 +160,9 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.7.2
+pydantic==2.7.3
     # via rstcheck-core
-pydantic-core==2.18.3
+pydantic-core==2.18.4
     # via pydantic
 pygments==2.18.0
     # via
@@ -173,7 +173,7 @@ pyproject-api==1.6.1
     # via tox
 pyproject-hooks==1.1.0
     # via build
-pytest==8.2.1
+pytest==8.2.2
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -183,7 +183,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.4
+redis==5.0.5
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -209,7 +209,7 @@ rstcheck==6.2.1
     # via -r requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.3.1
+sentry-sdk[flask]==2.5.1
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -254,7 +254,7 @@ tox==4.4.2
     # via -r requirements/tests.in
 typer[all]==0.12.3
     # via rstcheck
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via
     #   asgiref
     #   black
