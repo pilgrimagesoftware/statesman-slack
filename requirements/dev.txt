@@ -64,7 +64,7 @@ docutils==0.19
     #   sphinx-tabs
 exceptiongroup==1.2.1
     # via pytest
-filelock==3.14.0
+filelock==3.15.1
     # via
     #   tox
     #   virtualenv
@@ -133,7 +133,7 @@ mypy-extensions==1.0.0
     # via black
 ordered-set==4.1.0
     # via flask-limiter
-packaging==24.0
+packaging==24.1
     # via
     #   black
     #   build
@@ -160,7 +160,7 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.7.3
+pydantic==2.7.4
     # via rstcheck-core
 pydantic-core==2.18.4
     # via pydantic
@@ -183,7 +183,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.5
+redis==5.0.6
     # via
     #   -r requirements/app.in
     #   flask-redis

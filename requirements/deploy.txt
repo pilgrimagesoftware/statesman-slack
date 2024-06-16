@@ -81,7 +81,7 @@ msgspec==0.18.6
     # via flask-session
 ordered-set==4.1.0
     # via flask-limiter
-packaging==24.0
+packaging==24.1
     # via limits
 pika==1.3.2
     # via -r requirements/app.in
@@ -91,7 +91,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.5
+redis==5.0.6
     # via
     #   -r requirements/app.in
     #   flask-redis
