@@ -65,7 +65,7 @@ jsonschema==4.22.0
     # via -r requirements/app.in
 jsonschema-specifications==2023.12.1
     # via jsonschema
-limits[redis]==3.12.0
+limits[redis]==3.13.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -110,7 +110,7 @@ rpds-py==0.18.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.5.1
+sentry-sdk[flask]==2.6.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -118,7 +118,7 @@ typing-extensions==4.12.2
     # via
     #   flask-limiter
     #   limits
-urllib3==2.2.1
+urllib3==2.2.2
     # via
     #   requests
     #   sentry-sdk
