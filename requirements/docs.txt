@@ -10,7 +10,7 @@ annotated-types==0.7.0
     # via pydantic
 async-timeout==4.0.3
     # via redis
-attrs==23.2.0
+attrs==24.1.0
     # via
     #   jsonschema
     #   referencing
@@ -120,7 +120,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.1
     # via -r requirements/app.in
-redis==5.0.7
+redis==5.0.8
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -146,7 +146,7 @@ rstcheck==6.2.4
     # via -r requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.11.0
+sentry-sdk[flask]==2.12.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -165,19 +165,19 @@ sphinx-issues==4.1.0
     # via -r requirements/docs.in
 sphinx-tabs==3.4.5
     # via -r requirements/docs.in
-sphinxcontrib-applehelp==1.0.8
+sphinxcontrib-applehelp==2.0.0
     # via sphinx
-sphinxcontrib-devhelp==1.0.6
+sphinxcontrib-devhelp==2.0.0
     # via sphinx
-sphinxcontrib-htmlhelp==2.0.6
+sphinxcontrib-htmlhelp==2.1.0
     # via sphinx
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-log-cabinet==1.0.1
     # via -r requirements/docs.in
-sphinxcontrib-qthelp==1.0.8
+sphinxcontrib-qthelp==2.0.0
     # via sphinx
-sphinxcontrib-serializinghtml==1.1.10
+sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typer==0.12.3
     # via rstcheck
