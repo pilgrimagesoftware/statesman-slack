@@ -70,7 +70,7 @@ idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-resources==6.4.0
+importlib-resources==6.4.3
     # via limits
 itsdangerous==2.2.0
     # via flask
@@ -146,7 +146,7 @@ rstcheck==6.2.4
     # via -r requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.12.0
+sentry-sdk[flask]==2.13.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -179,7 +179,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-typer==0.12.3
+typer==0.12.4
     # via rstcheck
 typing-extensions==4.12.2
     # via

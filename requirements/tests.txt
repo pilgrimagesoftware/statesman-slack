@@ -80,7 +80,7 @@ greenlet==2.0.2
     # via -r requirements/tests.in
 idna==3.7
     # via requests
-importlib-resources==6.4.0
+importlib-resources==6.4.3
     # via limits
 iniconfig==2.0.0
     # via pytest
@@ -157,7 +157,7 @@ rpds-py==0.20.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.12.0
+sentry-sdk[flask]==2.13.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
