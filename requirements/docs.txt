@@ -22,7 +22,7 @@ blinker==1.8.2
     #   sentry-sdk
 cachelib==0.13.0
     # via flask-session
-certifi==2024.7.4
+certifi==2024.8.30
     # via
     #   requests
     #   sentry-sdk
@@ -134,7 +134,7 @@ requests==2.32.3
     #   -r requirements/app.in
     #   slacker
     #   sphinx
-rich==13.7.1
+rich==13.8.0
     # via
     #   flask-limiter
     #   typer
