@@ -53,7 +53,7 @@ flask-session==0.8.0
     # via -r requirements/app.in
 future==1.0.0
     # via flask-inputs
-idna==3.9
+idna==3.10
     # via requests
 importlib-resources==6.4.5
     # via limits

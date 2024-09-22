@@ -64,7 +64,7 @@ docutils==0.19
     #   sphinx-tabs
 exceptiongroup==1.2.2
     # via pytest
-filelock==3.16.0
+filelock==3.16.1
     # via
     #   tox
     #   virtualenv
@@ -97,7 +97,7 @@ future==1.0.0
     # via flask-inputs
 greenlet==2.0.2
     # via -r requirements/tests.in
-idna==3.9
+idna==3.10
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -151,7 +151,7 @@ pika==1.3.2
     # via -r requirements/app.in
 pip-tools==6.12.2
     # via -r requirements/dev.in
-platformdirs==4.3.3
+platformdirs==4.3.6
     # via
     #   black
     #   tox
@@ -160,16 +160,16 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.9.1
+pydantic==2.9.2
     # via rstcheck-core
-pydantic-core==2.23.3
+pydantic-core==2.23.4
     # via pydantic
 pygments==2.18.0
     # via
     #   rich
     #   sphinx
     #   sphinx-tabs
-pyproject-api==1.7.1
+pyproject-api==1.8.0
     # via tox
 pyproject-hooks==1.1.0
     # via build
@@ -269,7 +269,7 @@ urllib3==2.2.3
     #   sentry-sdk
 uwsgi==2.0.26
     # via -r requirements/app.in
-virtualenv==20.26.4
+virtualenv==20.26.5
     # via tox
 werkzeug==3.0.4
     # via flask
