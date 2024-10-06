@@ -171,7 +171,7 @@ pygments==2.18.0
     #   sphinx-tabs
 pyproject-api==1.8.0
     # via tox
-pyproject-hooks==1.1.0
+pyproject-hooks==1.2.0
     # via build
 pytest==8.3.3
     # via
@@ -183,7 +183,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.2
     # via -r requirements/app.in
-redis==5.1.0
+redis==5.1.1
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -197,7 +197,7 @@ requests==2.32.3
     #   -r requirements/app.in
     #   slacker
     #   sphinx
-rich==13.8.1
+rich==13.9.2
     # via
     #   flask-limiter
     #   typer
@@ -209,7 +209,7 @@ rstcheck==6.2.4
     # via -r requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.14.0
+sentry-sdk[flask]==2.15.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -242,7 +242,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-tomli==2.0.1
+tomli==2.0.2
     # via
     #   black
     #   build
@@ -262,6 +262,7 @@ typing-extensions==4.12.2
     #   limits
     #   pydantic
     #   pydantic-core
+    #   rich
     #   typer
 urllib3==2.2.3
     # via
