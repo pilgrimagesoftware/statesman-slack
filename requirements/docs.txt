@@ -8,7 +8,7 @@ alabaster==0.7.16
     # via sphinx
 annotated-types==0.7.0
     # via pydantic
-async-timeout==4.0.3
+async-timeout==5.0.0
     # via redis
 attrs==24.2.0
     # via
@@ -134,11 +134,11 @@ requests==2.32.3
     #   -r requirements/app.in
     #   slacker
     #   sphinx
-rich==13.9.3
+rich==13.9.4
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.20.0
+rpds-py==0.20.1
     # via
     #   jsonschema
     #   referencing
@@ -198,7 +198,7 @@ urllib3==2.2.3
     #   sentry-sdk
 uwsgi==2.0.28
     # via -r requirements/app.in
-werkzeug==3.0.6
+werkzeug==3.1.1
     # via flask
 wrapt==1.16.0
     # via deprecated
