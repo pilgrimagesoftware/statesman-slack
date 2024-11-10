@@ -6,13 +6,13 @@
 #
 asgiref==3.8.1
     # via -r requirements/tests.in
-async-timeout==5.0.0
+async-timeout==5.0.1
     # via redis
 attrs==24.2.0
     # via
     #   jsonschema
     #   referencing
-blinker==1.8.2
+blinker==1.9.0
     # via
     #   -r requirements/tests.in
     #   flask
@@ -51,7 +51,7 @@ filelock==3.16.1
     #   virtualenv
 flask==2.3.3
     # via
-    #   -r requirements/app.in
+    #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   flask-dotenv
     #   flask-executor
     #   flask-inputs
@@ -61,19 +61,19 @@ flask==2.3.3
     #   flask-session
     #   sentry-sdk
 flask-dotenv==0.1.2
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-executor==1.0.0
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-inputs==0.3.0
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-limiter[redis]==3.8.0
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-redis==0.4.0
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-script==2.0.6
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-session==0.8.0
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 future==1.0.0
     # via flask-inputs
 greenlet==2.0.2
@@ -89,7 +89,7 @@ itsdangerous==2.2.0
 jinja2==3.1.4
     # via flask
 jsonschema==4.23.0
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2024.10.1
     # via jsonschema
 limits[redis]==3.13.0
@@ -108,14 +108,14 @@ msgspec==0.18.6
     # via flask-session
 ordered-set==4.1.0
     # via flask-limiter
-packaging==24.1
+packaging==24.2
     # via
     #   limits
     #   pyproject-api
     #   pytest
     #   tox
 pika==1.3.2
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 platformdirs==4.3.6
     # via
     #   tox
@@ -135,12 +135,12 @@ pytest==8.3.3
 pytest-cov==4.0.0
     # via -r requirements/tests.in
 python-dotenv==1.0.1
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 pyyaml==6.0.2
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 redis==5.2.0
     # via
-    #   -r requirements/app.in
+    #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   flask-redis
     #   limits
 referencing==0.35.1
@@ -149,18 +149,18 @@ referencing==0.35.1
     #   jsonschema-specifications
 requests==2.32.3
     # via
-    #   -r requirements/app.in
+    #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   slacker
 rich==13.9.4
     # via flask-limiter
-rpds-py==0.20.1
+rpds-py==0.21.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.17.0
-    # via -r requirements/app.in
+sentry-sdk[flask]==2.18.0
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 slacker==0.14.0
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 tomli==2.0.2
     # via
     #   coverage
@@ -180,10 +180,10 @@ urllib3==2.2.3
     #   requests
     #   sentry-sdk
 uwsgi==2.0.28
-    # via -r requirements/app.in
+    # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 virtualenv==20.27.1
     # via tox
-werkzeug==3.1.1
+werkzeug==3.1.3
     # via flask
 wrapt==1.16.0
     # via deprecated
