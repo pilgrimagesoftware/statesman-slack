@@ -32,7 +32,7 @@ click==8.1.7
     # via
     #   flask
     #   typer
-deprecated==1.2.14
+deprecated==1.2.15
     # via limits
 docutils==0.19
     # via
