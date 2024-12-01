@@ -43,7 +43,7 @@ flask-executor==1.0.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-inputs==0.3.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
-flask-limiter[redis]==3.8.0
+flask-limiter[redis]==3.9.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-redis==0.4.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
@@ -55,8 +55,6 @@ future==1.0.0
     # via flask-inputs
 idna==3.10
     # via requests
-importlib-resources==6.4.5
-    # via limits
 itsdangerous==2.2.0
     # via flask
 jinja2==3.1.4
@@ -65,7 +63,7 @@ jsonschema==4.23.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2024.10.1
     # via jsonschema
-limits[redis]==3.13.0
+limits[redis]==3.14.1
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
