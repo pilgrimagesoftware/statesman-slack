@@ -47,7 +47,7 @@ click==8.1.7
     #   typer
 colorama==0.4.6
     # via tox
-coverage[toml]==7.6.8
+coverage[toml]==7.6.9
     # via
     #   coverage-badge
     #   pytest-cov
@@ -158,7 +158,7 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.10.2
+pydantic==2.10.3
     # via rstcheck-core
 pydantic-core==2.27.1
     # via pydantic
@@ -171,7 +171,7 @@ pyproject-api==1.8.0
     # via tox
 pyproject-hooks==1.2.0
     # via build
-pytest==8.3.3
+pytest==8.3.4
     # via
     #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
     #   pytest-cov
@@ -181,7 +181,7 @@ python-dotenv==1.0.1
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 pyyaml==6.0.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
-redis==5.2.0
+redis==5.2.1
     # via
     #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   flask-redis
@@ -199,7 +199,7 @@ rich==13.9.4
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.21.0
+rpds-py==0.22.3
     # via
     #   jsonschema
     #   referencing
@@ -207,7 +207,7 @@ rstcheck==6.2.4
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.19.0
+sentry-sdk[flask]==2.19.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -253,7 +253,7 @@ tomli==2.2.1
     #   tox
 tox==4.4.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
-typer==0.14.0
+typer==0.15.1
     # via rstcheck
 typing-extensions==4.12.2
     # via

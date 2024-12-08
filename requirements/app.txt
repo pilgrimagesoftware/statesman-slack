@@ -89,7 +89,7 @@ python-dotenv==1.0.1
     # via -r requirements/app.in
 pyyaml==6.0.2
     # via -r requirements/app.in
-redis==5.2.0
+redis==5.2.1
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -104,11 +104,11 @@ requests==2.32.3
     #   slacker
 rich==13.9.4
     # via flask-limiter
-rpds-py==0.21.0
+rpds-py==0.22.3
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.19.0
+sentry-sdk[flask]==2.19.2
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
