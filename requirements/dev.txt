@@ -12,7 +12,7 @@ asgiref==3.8.1
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
 async-timeout==5.0.1
     # via redis
-attrs==24.2.0
+attrs==24.3.0
     # via
     #   jsonschema
     #   referencing
@@ -39,7 +39,7 @@ chardet==5.2.0
     # via tox
 charset-normalizer==3.4.0
     # via requests
-click==8.1.7
+click==8.1.8
     # via
     #   black
     #   flask
@@ -105,7 +105,7 @@ iniconfig==2.0.0
     # via pytest
 itsdangerous==2.2.0
     # via flask
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   flask
     #   sphinx
@@ -158,9 +158,9 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.10.3
+pydantic==2.10.4
     # via rstcheck-core
-pydantic-core==2.27.1
+pydantic-core==2.27.2
     # via pydantic
 pygments==2.18.0
     # via
