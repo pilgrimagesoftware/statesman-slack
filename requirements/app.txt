@@ -6,7 +6,7 @@
 #
 async-timeout==5.0.1
     # via redis
-attrs==24.3.0
+attrs==25.1.0
     # via
     #   jsonschema
     #   referencing
@@ -24,7 +24,7 @@ charset-normalizer==3.4.1
     # via requests
 click==8.1.8
     # via flask
-deprecated==1.2.15
+deprecated==1.2.17
     # via limits
 flask==2.3.3
     # via
@@ -94,7 +94,7 @@ redis==5.2.1
     #   -r requirements/app.in
     #   flask-redis
     #   limits
-referencing==0.36.1
+referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications

@@ -12,7 +12,7 @@ asgiref==3.8.1
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
 async-timeout==5.0.1
     # via redis
-attrs==24.3.0
+attrs==25.1.0
     # via
     #   jsonschema
     #   referencing
@@ -29,7 +29,7 @@ build==1.2.2.post1
     # via pip-tools
 cachelib==0.13.0
     # via flask-session
-cachetools==5.5.0
+cachetools==5.5.1
     # via tox
 certifi==2024.12.14
     # via
@@ -53,7 +53,7 @@ coverage[toml]==7.6.10
     #   pytest-cov
 coverage-badge==1.1.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
-deprecated==1.2.15
+deprecated==1.2.17
     # via limits
 distlib==0.3.9
     # via virtualenv
@@ -64,7 +64,7 @@ docutils==0.19
     #   sphinx-tabs
 exceptiongroup==1.2.2
     # via pytest
-filelock==3.16.1
+filelock==3.17.0
     # via
     #   tox
     #   virtualenv
@@ -158,7 +158,7 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.10.5
+pydantic==2.10.6
     # via rstcheck-core
 pydantic-core==2.27.2
     # via pydantic
@@ -167,7 +167,7 @@ pygments==2.19.1
     #   rich
     #   sphinx
     #   sphinx-tabs
-pyproject-api==1.8.0
+pyproject-api==1.9.0
     # via tox
 pyproject-hooks==1.2.0
     # via build
@@ -186,7 +186,7 @@ redis==5.2.1
     #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   flask-redis
     #   limits
-referencing==0.36.1
+referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications
