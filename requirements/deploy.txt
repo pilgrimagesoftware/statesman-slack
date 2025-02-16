@@ -108,7 +108,7 @@ rpds-py==0.22.3
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.20.0
+sentry-sdk[flask]==2.21.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 slacker==0.14.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
