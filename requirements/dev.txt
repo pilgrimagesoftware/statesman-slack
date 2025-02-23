@@ -29,7 +29,7 @@ build==1.2.2.post1
     # via pip-tools
 cachelib==0.13.0
     # via flask-session
-cachetools==5.5.1
+cachetools==5.5.2
     # via tox
 certifi==2025.1.31
     # via
@@ -199,7 +199,7 @@ rich==13.9.4
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.22.3
+rpds-py==0.23.1
     # via
     #   jsonschema
     #   referencing
@@ -207,7 +207,7 @@ rstcheck==6.2.4
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.21.0
+sentry-sdk[flask]==2.22.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 shellingham==1.5.4
     # via typer
