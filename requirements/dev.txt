@@ -253,7 +253,7 @@ tomli==2.2.1
     #   tox
 tox==4.4.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
-typer==0.15.1
+typer==0.15.2
     # via rstcheck
 typing-extensions==4.12.2
     # via
