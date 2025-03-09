@@ -72,7 +72,7 @@ imagesize==1.4.1
     # via sphinx
 itsdangerous==2.2.0
     # via flask
-jinja2==3.1.5
+jinja2==3.1.6
     # via
     #   flask
     #   sphinx
@@ -80,7 +80,7 @@ jsonschema==4.23.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2024.10.1
     # via jsonschema
-limits[redis]==4.0.1
+limits[redis]==4.1
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
