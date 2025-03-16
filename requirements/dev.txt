@@ -12,7 +12,7 @@ asgiref==3.8.1
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
 async-timeout==5.0.1
     # via redis
-attrs==25.1.0
+attrs==25.3.0
     # via
     #   jsonschema
     #   referencing
@@ -64,7 +64,7 @@ docutils==0.19
     #   sphinx-tabs
 exceptiongroup==1.2.2
     # via pytest
-filelock==3.17.0
+filelock==3.18.0
     # via
     #   tox
     #   virtualenv
@@ -85,7 +85,7 @@ flask-executor==1.0.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-inputs==0.3.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
-flask-limiter[redis]==3.10.1
+flask-limiter[redis]==3.12
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 flask-redis==0.4.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
@@ -113,7 +113,7 @@ jsonschema==4.23.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2024.10.1
     # via jsonschema
-limits[redis]==4.1
+limits[redis]==4.4.1
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -259,7 +259,6 @@ typing-extensions==4.12.2
     # via
     #   asgiref
     #   black
-    #   flask-limiter
     #   limits
     #   pydantic
     #   pydantic-core
