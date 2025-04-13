@@ -63,7 +63,7 @@ jsonschema==4.23.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2024.10.1
     # via jsonschema
-limits[redis]==4.6
+limits[redis]==4.7.3
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -112,16 +112,16 @@ sentry-sdk[flask]==2.25.1
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 slacker==0.14.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
-typing-extensions==4.13.1
+typing-extensions==4.13.2
     # via
     #   limits
     #   referencing
     #   rich
-urllib3==2.3.0
+urllib3==2.4.0
     # via
     #   requests
     #   sentry-sdk
-uwsgi==2.0.28
+uwsgi==2.0.29
     # via
     #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   -r requirements/deploy.in
