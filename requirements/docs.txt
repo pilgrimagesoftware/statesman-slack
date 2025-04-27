@@ -22,7 +22,7 @@ blinker==1.9.0
     #   sentry-sdk
 cachelib==0.13.0
     # via flask-session
-certifi==2025.1.31
+certifi==2025.4.26
     # via
     #   requests
     #   sentry-sdk
@@ -78,9 +78,9 @@ jinja2==3.1.6
     #   sphinx
 jsonschema==4.23.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
-jsonschema-specifications==2024.10.1
+jsonschema-specifications==2025.4.1
     # via jsonschema
-limits[redis]==5.0.0
+limits[redis]==5.1.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -96,7 +96,7 @@ msgspec==0.19.0
     # via flask-session
 ordered-set==4.1.0
     # via flask-limiter
-packaging==24.2
+packaging==25.0
     # via
     #   limits
     #   pallets-sphinx-themes
@@ -144,7 +144,7 @@ rstcheck==6.2.4
     # via -r requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.26.1
+sentry-sdk[flask]==2.27.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 shellingham==1.5.4
     # via typer
