@@ -37,7 +37,7 @@ certifi==2025.4.26
     #   sentry-sdk
 chardet==5.2.0
     # via tox
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 click==8.1.8
     # via
@@ -158,15 +158,17 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-pydantic==2.11.3
+pydantic==2.11.4
     # via rstcheck-core
-pydantic-core==2.33.1
+pydantic-core==2.33.2
     # via pydantic
 pygments==2.19.1
     # via
     #   rich
     #   sphinx
     #   sphinx-tabs
+pyjwt==2.9.0
+    # via redis
 pyproject-api==1.9.0
     # via tox
 pyproject-hooks==1.2.0
@@ -181,7 +183,7 @@ python-dotenv==1.1.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 pyyaml==6.0.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
-redis==5.2.1
+redis==5.3.0
     # via
     #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   flask-redis
@@ -253,7 +255,7 @@ tomli==2.2.1
     #   tox
 tox==4.4.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
-typer==0.15.2
+typer==0.15.3
     # via rstcheck
 typing-extensions==4.13.2
     # via

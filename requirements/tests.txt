@@ -27,7 +27,7 @@ certifi==2025.4.26
     #   sentry-sdk
 chardet==5.2.0
     # via tox
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 click==8.1.8
     # via flask
@@ -124,6 +124,8 @@ pluggy==1.5.0
     #   tox
 pygments==2.19.1
     # via rich
+pyjwt==2.9.0
+    # via redis
 pyproject-api==1.9.0
     # via tox
 pytest==8.3.5
@@ -136,7 +138,7 @@ python-dotenv==1.1.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 pyyaml==6.0.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
-redis==5.2.1
+redis==5.3.0
     # via
     #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   flask-redis
