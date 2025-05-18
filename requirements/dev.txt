@@ -39,7 +39,7 @@ chardet==5.2.0
     # via tox
 charset-normalizer==3.4.2
     # via requests
-click==8.2.0
+click==8.1.8
     # via
     #   black
     #   flask
@@ -113,7 +113,7 @@ jsonschema==4.23.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2025.4.1
     # via jsonschema
-limits[redis]==5.1.0
+limits[redis]==5.2.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -154,7 +154,7 @@ platformdirs==4.3.8
     #   black
     #   tox
     #   virtualenv
-pluggy==1.5.0
+pluggy==1.6.0
     # via
     #   pytest
     #   tox
@@ -169,7 +169,7 @@ pygments==2.19.1
     #   sphinx-tabs
 pyjwt==2.9.0
     # via redis
-pyproject-api==1.9.0
+pyproject-api==1.9.1
     # via tox
 pyproject-hooks==1.2.0
     # via build
@@ -201,7 +201,7 @@ rich==13.9.4
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.24.0
+rpds-py==0.25.0
     # via
     #   jsonschema
     #   referencing
@@ -209,7 +209,7 @@ rstcheck==6.2.4
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.27.0
+sentry-sdk[flask]==2.28.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -255,7 +255,7 @@ tomli==2.2.1
     #   tox
 tox==4.4.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
-typer==0.15.3
+typer==0.15.4
     # via rstcheck
 typing-extensions==4.13.2
     # via

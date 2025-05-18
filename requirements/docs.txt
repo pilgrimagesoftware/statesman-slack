@@ -28,7 +28,7 @@ certifi==2025.4.26
     #   sentry-sdk
 charset-normalizer==3.4.2
     # via requests
-click==8.2.0
+click==8.1.8
     # via
     #   flask
     #   typer
@@ -80,7 +80,7 @@ jsonschema==4.23.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2025.4.1
     # via jsonschema
-limits[redis]==5.1.0
+limits[redis]==5.2.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -138,7 +138,7 @@ rich==13.9.4
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.24.0
+rpds-py==0.25.0
     # via
     #   jsonschema
     #   referencing
@@ -146,7 +146,7 @@ rstcheck==6.2.4
     # via -r requirements/docs.in
 rstcheck-core==1.2.1
     # via rstcheck
-sentry-sdk[flask]==2.27.0
+sentry-sdk[flask]==2.28.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -182,7 +182,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-typer==0.15.3
+typer==0.15.4
     # via rstcheck
 typing-extensions==4.13.2
     # via
