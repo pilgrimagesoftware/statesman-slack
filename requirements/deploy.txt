@@ -16,7 +16,7 @@ blinker==1.9.0
     #   sentry-sdk
 cachelib==0.13.0
     # via flask-session
-certifi==2025.4.26
+certifi==2025.6.15
     # via
     #   requests
     #   sentry-sdk
@@ -63,7 +63,7 @@ jsonschema==4.24.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2025.4.1
     # via jsonschema
-limits[redis]==5.2.0
+limits[redis]==5.3.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -100,7 +100,7 @@ referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.3
+requests==2.32.4
     # via
     #   -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
     #   slacker
@@ -110,7 +110,7 @@ rpds-py==0.25.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.29.1
+sentry-sdk[flask]==2.30.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 slacker==0.14.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
