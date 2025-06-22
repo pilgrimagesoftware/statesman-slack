@@ -63,7 +63,7 @@ jsonschema==4.24.0
     # via -r requirements/app.in
 jsonschema-specifications==2025.4.1
     # via jsonschema
-limits[redis]==5.3.0
+limits[redis]==5.4.0
     # via flask-limiter
 markdown-it-py==3.0.0
     # via rich
@@ -83,7 +83,7 @@ packaging==25.0
     # via limits
 pika==1.3.2
     # via -r requirements/app.in
-pygments==2.19.1
+pygments==2.19.2
     # via rich
 pyjwt==2.9.0
     # via redis
@@ -119,7 +119,7 @@ typing-extensions==4.14.0
     #   limits
     #   referencing
     #   rich
-urllib3==2.4.0
+urllib3==2.5.0
     # via
     #   requests
     #   sentry-sdk
