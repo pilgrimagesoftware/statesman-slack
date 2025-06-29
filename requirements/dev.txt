@@ -180,7 +180,7 @@ pytest==8.4.1
     #   pytest-cov
 pytest-cov==4.0.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
-python-dotenv==1.1.0
+python-dotenv==1.1.1
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 pyyaml==6.0.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
@@ -210,7 +210,7 @@ rstcheck==6.2.5
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.30.0
+sentry-sdk[flask]==2.32.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 shellingham==1.5.4
     # via typer

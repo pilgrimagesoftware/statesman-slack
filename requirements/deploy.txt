@@ -87,7 +87,7 @@ pygments==2.19.2
     # via rich
 pyjwt==2.9.0
     # via redis
-python-dotenv==1.1.0
+python-dotenv==1.1.1
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 pyyaml==6.0.2
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
@@ -110,7 +110,7 @@ rpds-py==0.25.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.30.0
+sentry-sdk[flask]==2.32.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 slacker==0.14.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
