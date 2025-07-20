@@ -31,7 +31,7 @@ cachelib==0.13.0
     # via flask-session
 cachetools==6.1.0
     # via tox
-certifi==2025.7.9
+certifi==2025.7.14
     # via
     #   requests
     #   sentry-sdk
@@ -55,7 +55,7 @@ coverage-badge==1.1.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/tests.in
 deprecated==1.2.18
     # via limits
-distlib==0.3.9
+distlib==0.4.0
     # via virtualenv
 docutils==0.19
     # via
@@ -109,7 +109,7 @@ jinja2==3.1.6
     # via
     #   flask
     #   sphinx
-jsonschema==4.24.0
+jsonschema==4.25.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 jsonschema-specifications==2025.4.1
     # via jsonschema
@@ -210,7 +210,7 @@ rstcheck==6.2.5
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.32.0
+sentry-sdk[flask]==2.33.0
     # via -r /home/runner/work/statesman-slack/statesman-slack/requirements/app.in
 shellingham==1.5.4
     # via typer
