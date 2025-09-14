@@ -43,7 +43,7 @@ flask-executor==1.0.0
     # via -r requirements/app.in
 flask-inputs==0.3.0
     # via -r requirements/app.in
-flask-limiter[redis]==3.12
+flask-limiter[redis]==3.13
     # via -r requirements/app.in
 flask-redis==0.4.0
     # via -r requirements/app.in
@@ -102,21 +102,21 @@ requests==2.32.5
     # via
     #   -r requirements/app.in
     #   slacker
-rich==13.9.4
+rich==14.1.0
     # via flask-limiter
 rpds-py==0.27.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.37.0
+sentry-sdk[flask]==2.37.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
 typing-extensions==4.15.0
     # via
+    #   flask-limiter
     #   limits
     #   referencing
-    #   rich
 urllib3==2.5.0
     # via
     #   requests
