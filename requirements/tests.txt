@@ -121,6 +121,7 @@ platformdirs==4.4.0
 pluggy==1.6.0
     # via
     #   pytest
+    #   pytest-cov
     #   tox
 pygments==2.19.2
     # via
@@ -132,7 +133,7 @@ pytest==8.4.2
     # via
     #   -r requirements/tests.in
     #   pytest-cov
-pytest-cov==4.0.0
+pytest-cov==7.0.0
     # via -r requirements/tests.in
 python-dotenv==1.1.1
     # via -r requirements/app.in
