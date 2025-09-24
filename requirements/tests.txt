@@ -4,7 +4,7 @@
 #
 #    pip-compile --cert=None --client-cert=None --index-url=None --pip-args=None requirements/tests.in
 #
-asgiref==3.9.1
+asgiref==3.9.2
     # via -r requirements/tests.in
 async-timeout==5.0.1
     # via redis
@@ -33,7 +33,7 @@ click==8.3.0
     # via flask
 colorama==0.4.6
     # via tox
-coverage[toml]==7.10.6
+coverage[toml]==7.10.7
     # via
     #   coverage-badge
     #   pytest-cov
