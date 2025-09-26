@@ -26,7 +26,7 @@ click==8.3.0
     # via flask
 deprecated==1.2.18
     # via limits
-flask==2.3.3
+flask==3.1.2
     # via
     #   -r requirements/app.in
     #   flask-dotenv
@@ -41,7 +41,7 @@ flask-dotenv==0.1.2
     # via -r requirements/app.in
 flask-executor==1.0.0
     # via -r requirements/app.in
-flask-inputs==0.3.0
+flask-inputs==1.0.0
     # via -r requirements/app.in
 flask-limiter[redis]==3.13
     # via -r requirements/app.in
@@ -69,6 +69,7 @@ markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via
+    #   flask
     #   jinja2
     #   sentry-sdk
     #   werkzeug
@@ -87,7 +88,7 @@ pygments==2.19.2
     # via rich
 python-dotenv==1.1.1
     # via -r requirements/app.in
-pyyaml==6.0.2
+pyyaml==6.0.3
     # via -r requirements/app.in
 redis==6.4.0
     # via
@@ -108,7 +109,7 @@ rpds-py==0.27.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.38.0
+sentry-sdk[flask]==2.39.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
