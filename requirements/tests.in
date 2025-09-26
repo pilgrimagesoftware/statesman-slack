@@ -2,7 +2,6 @@
 asgiref
 blinker
 coverage-badge==1.1.0
-greenlet==2.0.2
 pytest
-tox==4.30.2
-pytest-cov==7.0.0
+pytest-cov
+tox~=4.0

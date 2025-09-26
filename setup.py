@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name="statesman-slack",
     install_requires=[
-        "flask<3.0",
+        "flask~=3.0",
         "flask-dotenv",
         "flask-executor",
         "flask-inputs",
