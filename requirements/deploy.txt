@@ -6,7 +6,7 @@
 #
 async-timeout==5.0.1
     # via redis
-attrs==25.3.0
+attrs==25.4.0
     # via
     #   jsonschema
     #   referencing
@@ -16,7 +16,7 @@ blinker==1.9.0
     #   sentry-sdk
 cachelib==0.13.0
     # via flask-session
-certifi==2025.8.3
+certifi==2025.10.5
     # via
     #   requests
     #   sentry-sdk
@@ -109,7 +109,7 @@ rpds-py==0.27.1
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.39.0
+sentry-sdk[flask]==2.40.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in

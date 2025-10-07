@@ -12,7 +12,7 @@ asgiref==3.10.0
     # via -r requirements/tests.in
 async-timeout==5.0.1
     # via redis
-attrs==25.3.0
+attrs==25.4.0
     # via
     #   jsonschema
     #   referencing
@@ -31,7 +31,7 @@ cachelib==0.13.0
     # via flask-session
 cachetools==6.2.0
     # via tox
-certifi==2025.8.3
+certifi==2025.10.5
     # via
     #   requests
     #   sentry-sdk
@@ -212,7 +212,7 @@ rstcheck==6.2.5
     # via -r requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.39.0
+sentry-sdk[flask]==2.40.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
