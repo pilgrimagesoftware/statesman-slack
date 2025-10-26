@@ -153,11 +153,11 @@ requests==2.32.5
     #   slacker
 rich==14.2.0
     # via flask-limiter
-rpds-py==0.27.1
+rpds-py==0.28.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.42.0
+sentry-sdk[flask]==2.42.1
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -167,7 +167,7 @@ tomli==2.3.0
     #   pyproject-api
     #   pytest
     #   tox
-tox==4.31.0
+tox==4.32.0
     # via -r requirements/tests.in
 typing-extensions==4.15.0
     # via

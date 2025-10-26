@@ -204,7 +204,7 @@ rich==14.2.0
     # via
     #   flask-limiter
     #   typer
-rpds-py==0.27.1
+rpds-py==0.28.0
     # via
     #   jsonschema
     #   referencing
@@ -212,7 +212,7 @@ rstcheck==6.2.5
     # via -r requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.42.0
+sentry-sdk[flask]==2.42.1
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -258,9 +258,9 @@ tomli==2.3.0
     #   pytest
     #   sphinx
     #   tox
-tox==4.31.0
+tox==4.32.0
     # via -r requirements/tests.in
-typer==0.19.2
+typer==0.20.0
     # via rstcheck
 typing-extensions==4.15.0
     # via
