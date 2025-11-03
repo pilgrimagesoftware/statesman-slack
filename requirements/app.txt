@@ -109,7 +109,7 @@ rpds-py==0.28.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.42.1
+sentry-sdk[flask]==2.43.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
