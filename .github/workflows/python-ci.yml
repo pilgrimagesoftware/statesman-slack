@@ -33,7 +33,7 @@ jobs:
           #   }
           # - { name: Mac, python: "3.9", os: macos-latest, tox: py39 }
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: docs
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: "3.9"
@@ -79,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: publish
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - name: publish
