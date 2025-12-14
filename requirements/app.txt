@@ -110,7 +110,7 @@ typing-extensions==4.15.0
     #   flask-limiter
     #   limits
     #   referencing
-urllib3==2.6.0
+urllib3==2.6.2
     # via
     #   requests
     #   sentry-sdk
