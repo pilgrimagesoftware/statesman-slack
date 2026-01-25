@@ -130,7 +130,7 @@ mypy-extensions==1.1.0
     # via black
 ordered-set==4.1.0
     # via flask-limiter
-packaging==25.0
+packaging==26.0
     # via
     #   black
     #   build
@@ -140,6 +140,7 @@ packaging==25.0
     #   pytest
     #   sphinx
     #   tox
+    #   wheel
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
 pathspec==1.0.3
@@ -182,7 +183,7 @@ pytest-cov==7.0.0
     # via -r requirements/tests.in
 python-dotenv==1.2.1
     # via -r requirements/app.in
-pytokens==0.3.0
+pytokens==0.4.0
     # via black
 pyyaml==6.0.3
     # via -r requirements/app.in
@@ -200,7 +201,7 @@ requests==2.32.5
     #   -r requirements/app.in
     #   slacker
     #   sphinx
-rich==14.2.0
+rich==14.3.1
     # via typer
 rpds-py==0.30.0
     # via
@@ -210,7 +211,7 @@ rstcheck==6.2.5
     # via -r requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.49.0
+sentry-sdk[flask]==2.50.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -286,7 +287,7 @@ virtualenv==20.36.1
     # via tox
 werkzeug==3.1.5
     # via flask
-wheel==0.45.1
+wheel==0.46.3
     # via pip-tools
 wrapt==2.0.1
     # via deprecated
