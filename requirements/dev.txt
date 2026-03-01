@@ -33,12 +33,10 @@ cachelib==0.13.0
     # via flask-session
 cachetools==7.0.1
     # via tox
-certifi==2026.1.4
+certifi==2026.2.25
     # via
     #   requests
     #   sentry-sdk
-chardet==5.2.0
-    # via tox
 charset-normalizer==3.4.4
     # via requests
 click==8.3.1
@@ -68,6 +66,7 @@ exceptiongroup==1.3.1
     # via pytest
 filelock==3.24.3
     # via
+    #   python-discovery
     #   tox
     #   virtualenv
 flask==3.1.3
@@ -143,7 +142,7 @@ packaging==26.0
     #   sphinx
     #   tox
     #   wheel
-pallets-sphinx-themes==2.3.0
+pallets-sphinx-themes==2.5.0
     # via -r requirements/docs.in
 pathspec==1.0.4
     # via black
@@ -154,6 +153,7 @@ pip-tools==7.5.3
 platformdirs==4.9.2
     # via
     #   black
+    #   python-discovery
     #   tox
     #   virtualenv
 pluggy==1.6.0
@@ -183,13 +183,15 @@ pytest==9.0.2
     #   pytest-cov
 pytest-cov==7.0.0
     # via -r requirements/tests.in
+python-discovery==1.1.0
+    # via virtualenv
 python-dotenv==1.2.1
     # via -r requirements/app.in
 pytokens==0.4.1
     # via black
 pyyaml==6.0.3
     # via -r requirements/app.in
-redis==7.2.0
+redis==7.2.1
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -259,7 +261,7 @@ tomli==2.4.0
     #   pytest
     #   sphinx
     #   tox
-tox==4.44.0
+tox==4.46.3
     # via -r requirements/tests.in
 typer==0.24.1
     # via rstcheck
@@ -284,7 +286,7 @@ urllib3==2.6.3
     #   sentry-sdk
 uwsgi==2.0.31
     # via -r requirements/app.in
-virtualenv==20.38.0
+virtualenv==21.1.0
     # via tox
 werkzeug==3.1.6
     # via flask
