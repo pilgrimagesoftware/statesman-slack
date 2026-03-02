@@ -261,7 +261,7 @@ tomli==2.4.0
     #   pytest
     #   sphinx
     #   tox
-tox==4.46.3
+tox==4.47.0
     # via -r requirements/tests.in
 typer==0.24.1
     # via rstcheck
