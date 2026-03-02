@@ -80,7 +80,7 @@ packaging==26.0
     # via limits
 pika==1.3.2
     # via -r requirements/app.in
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via -r requirements/app.in
