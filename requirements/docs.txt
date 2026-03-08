@@ -28,7 +28,7 @@ certifi==2026.2.25
     # via
     #   requests
     #   sentry-sdk
-charset-normalizer==3.4.4
+charset-normalizer==3.4.5
     # via requests
 click==8.3.1
     # via
@@ -70,7 +70,7 @@ future==1.0.0
     # via flask-inputs
 idna==3.11
     # via requests
-imagesize==1.4.1
+imagesize==2.0.0
     # via sphinx
 itsdangerous==2.2.0
     # via flask
@@ -117,11 +117,11 @@ pygments==2.19.2
     #   rich
     #   sphinx
     #   sphinx-tabs
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via -r requirements/app.in
-redis==7.2.1
+redis==7.3.0
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -145,7 +145,7 @@ rstcheck==6.2.5
     # via -r requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.53.0
+sentry-sdk[flask]==2.54.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -165,7 +165,7 @@ sphinx-issues==5.0.1
     # via -r requirements/docs.in
 sphinx-notfound-page==1.1.0
     # via pallets-sphinx-themes
-sphinx-tabs==3.4.7
+sphinx-tabs==3.5.0
     # via -r requirements/docs.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
@@ -203,7 +203,7 @@ uwsgi==2.0.31
     # via -r requirements/app.in
 werkzeug==3.1.6
     # via flask
-wrapt==2.1.1
+wrapt==2.1.2
     # via deprecated
 wtforms==3.2.1
     # via flask-inputs
