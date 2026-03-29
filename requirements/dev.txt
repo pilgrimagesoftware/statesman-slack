@@ -27,7 +27,7 @@ blinker==1.9.0
     #   -r requirements/tests.in
     #   flask
     #   sentry-sdk
-build==1.4.0
+build==1.4.2
     # via pip-tools
 cachelib==0.13.0
     # via flask-session
@@ -183,15 +183,17 @@ pytest==9.0.2
     #   pytest-cov
 pytest-cov==7.1.0
     # via -r requirements/tests.in
-python-discovery==1.2.0
-    # via virtualenv
+python-discovery==1.2.1
+    # via
+    #   tox
+    #   virtualenv
 python-dotenv==1.2.2
     # via -r requirements/app.in
 pytokens==0.4.1
     # via black
 pyyaml==6.0.3
     # via -r requirements/app.in
-redis==7.3.0
+redis==7.4.0
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -200,7 +202,7 @@ referencing==0.37.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.5
+requests==2.33.0
     # via
     #   -r requirements/app.in
     #   slacker
@@ -215,7 +217,7 @@ rstcheck==6.2.5
     # via -r requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.55.0
+sentry-sdk[flask]==2.56.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -251,7 +253,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-tomli==2.4.0
+tomli==2.4.1
     # via
     #   black
     #   build
@@ -263,7 +265,7 @@ tomli==2.4.0
     #   tox
 tomli-w==1.2.0
     # via tox
-tox==4.50.3
+tox==4.51.0
     # via -r requirements/tests.in
 typer==0.24.1
     # via rstcheck
@@ -290,7 +292,7 @@ uwsgi==2.0.31
     # via -r requirements/app.in
 virtualenv==21.2.0
     # via tox
-werkzeug==3.1.6
+werkzeug==3.1.7
     # via flask
 wheel==0.46.3
     # via pip-tools

@@ -84,7 +84,7 @@ python-dotenv==1.2.2
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via -r requirements/app.in
-redis==7.3.0
+redis==7.4.0
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -93,7 +93,7 @@ referencing==0.37.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.5
+requests==2.33.0
     # via
     #   -r requirements/app.in
     #   slacker
@@ -101,7 +101,7 @@ rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.55.0
+sentry-sdk[flask]==2.56.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -118,7 +118,7 @@ uwsgi==2.0.31
     # via
     #   -r requirements/app.in
     #   -r requirements/deploy.in
-werkzeug==3.1.6
+werkzeug==3.1.7
     # via flask
 wrapt==2.1.2
     # via deprecated

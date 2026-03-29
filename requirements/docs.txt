@@ -121,7 +121,7 @@ python-dotenv==1.2.2
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via -r requirements/app.in
-redis==7.3.0
+redis==7.4.0
     # via
     #   -r requirements/app.in
     #   flask-redis
@@ -130,7 +130,7 @@ referencing==0.37.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.5
+requests==2.33.0
     # via
     #   -r requirements/app.in
     #   slacker
@@ -145,7 +145,7 @@ rstcheck==6.2.5
     # via -r requirements/docs.in
 rstcheck-core==1.2.2
     # via rstcheck
-sentry-sdk[flask]==2.55.0
+sentry-sdk[flask]==2.56.0
     # via -r requirements/app.in
 shellingham==1.5.4
     # via typer
@@ -181,7 +181,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-tomli==2.4.0
+tomli==2.4.1
     # via sphinx
 typer==0.24.1
     # via rstcheck
@@ -201,7 +201,7 @@ urllib3==2.6.3
     #   sentry-sdk
 uwsgi==2.0.31
     # via -r requirements/app.in
-werkzeug==3.1.6
+werkzeug==3.1.7
     # via flask
 wrapt==2.1.2
     # via deprecated
