@@ -25,9 +25,9 @@ certifi==2026.2.25
     # via
     #   requests
     #   sentry-sdk
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via flask
 colorama==0.4.6
     # via tox
@@ -118,7 +118,7 @@ pluggy==1.6.0
     #   pytest
     #   pytest-cov
     #   tox
-pygments==2.19.2
+pygments==2.20.0
     # via pytest
 pyproject-api==1.10.0
     # via tox
@@ -145,7 +145,7 @@ referencing==0.37.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.33.0
+requests==2.33.1
     # via
     #   -r requirements/app.in
     #   slacker
@@ -153,7 +153,7 @@ rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.56.0
+sentry-sdk[flask]==2.57.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -165,7 +165,7 @@ tomli==2.4.1
     #   tox
 tomli-w==1.2.0
     # via tox
-tox==4.51.0
+tox==4.52.0
     # via -r requirements/tests.in
 typing-extensions==4.15.0
     # via
@@ -184,7 +184,7 @@ uwsgi==2.0.31
     # via -r requirements/app.in
 virtualenv==21.2.0
     # via tox
-werkzeug==3.1.7
+werkzeug==3.1.8
     # via flask
 wrapt==2.1.2
     # via deprecated
