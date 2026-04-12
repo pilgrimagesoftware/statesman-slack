@@ -72,7 +72,7 @@ markupsafe==3.0.3
     #   sentry-sdk
     #   werkzeug
     #   wtforms
-msgspec==0.20.0
+msgspec==0.21.0
     # via flask-session
 ordered-set==4.1.0
     # via flask-limiter

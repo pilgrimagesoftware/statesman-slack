@@ -96,7 +96,7 @@ markupsafe==3.0.3
     #   sentry-sdk
     #   werkzeug
     #   wtforms
-msgspec==0.20.0
+msgspec==0.21.0
     # via flask-session
 ordered-set==4.1.0
     # via flask-limiter
@@ -108,7 +108,7 @@ packaging==26.0
     #   tox
 pika==1.3.2
     # via -r requirements/app.in
-platformdirs==4.9.4
+platformdirs==4.9.6
     # via
     #   python-discovery
     #   tox
@@ -122,13 +122,13 @@ pygments==2.20.0
     # via pytest
 pyproject-api==1.10.0
     # via tox
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   -r requirements/tests.in
     #   pytest-cov
 pytest-cov==7.1.0
     # via -r requirements/tests.in
-python-discovery==1.2.1
+python-discovery==1.2.2
     # via
     #   tox
     #   virtualenv
@@ -165,7 +165,7 @@ tomli==2.4.1
     #   tox
 tomli-w==1.2.0
     # via tox
-tox==4.52.0
+tox==4.52.1
     # via -r requirements/tests.in
 typing-extensions==4.15.0
     # via
@@ -182,7 +182,7 @@ urllib3==2.6.3
     #   sentry-sdk
 uwsgi==2.0.31
     # via -r requirements/app.in
-virtualenv==21.2.0
+virtualenv==21.2.1
     # via tox
 werkzeug==3.1.8
     # via flask

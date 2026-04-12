@@ -95,7 +95,7 @@ markupsafe==3.0.3
     #   wtforms
 mdurl==0.1.2
     # via markdown-it-py
-msgspec==0.20.0
+msgspec==0.21.0
     # via flask-session
 ordered-set==4.1.0
     # via flask-limiter
@@ -135,7 +135,7 @@ requests==2.33.1
     #   -r requirements/app.in
     #   slacker
     #   sphinx
-rich==14.3.3
+rich==14.3.4
     # via typer
 rpds-py==0.30.0
     # via
