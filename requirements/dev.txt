@@ -20,7 +20,7 @@ attrs==26.1.0
     #   referencing
 babel==2.18.0
     # via sphinx
-black==26.5.0
+black==26.5.1
     # via -r requirements/dev.in
 blinker==1.9.0
     # via
@@ -31,15 +31,15 @@ build==1.5.0
     # via pip-tools
 cachelib==0.14.0
     # via flask-session
-cachetools==7.1.2
+cachetools==7.1.4
     # via tox
-certifi==2026.4.22
+certifi==2026.5.20
     # via
     #   requests
     #   sentry-sdk
 charset-normalizer==3.4.7
     # via requests
-click==8.4.0
+click==8.4.1
     # via
     #   black
     #   flask
@@ -96,7 +96,7 @@ flask-session==0.8.0
     # via -r requirements/app.in
 future==1.0.0
     # via flask-inputs
-idna==3.15
+idna==3.16
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -146,7 +146,7 @@ pallets-sphinx-themes==2.5.0
     # via -r requirements/docs.in
 pathspec==1.1.1
     # via black
-pika==1.4.0
+pika==1.4.1
     # via -r requirements/app.in
 pip-tools==7.5.3
     # via -r requirements/dev.in
@@ -296,7 +296,7 @@ werkzeug==3.1.8
     # via flask
 wheel==0.47.0
     # via pip-tools
-wrapt==2.1.2
+wrapt==2.2.1
     # via deprecated
 wtforms==3.2.2
     # via flask-inputs
