@@ -53,7 +53,7 @@ flask-session==0.8.0
     # via -r requirements/app.in
 future==1.0.0
     # via flask-inputs
-idna==3.16
+idna==3.17
     # via requests
 itsdangerous==2.2.0
     # via flask
@@ -101,7 +101,7 @@ rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.60.0
+sentry-sdk[flask]==2.61.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
