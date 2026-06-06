@@ -53,7 +53,7 @@ flask-session==0.8.0
     # via -r requirements/app.in
 future==1.0.0
     # via flask-inputs
-idna==3.17
+idna==3.18
     # via requests
 itsdangerous==2.2.0
     # via flask
@@ -84,7 +84,7 @@ python-dotenv==1.2.2
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via -r requirements/app.in
-redis==7.4.0
+redis==7.4.1
     # via
     #   -r requirements/app.in
     #   flask-redis
