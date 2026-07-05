@@ -101,11 +101,11 @@ rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.63.0
+sentry-sdk[flask]==2.64.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   flask-limiter
     #   limits
