@@ -147,7 +147,7 @@ pathspec==1.1.1
     # via black
 pika==1.4.1
     # via -r requirements/app.in
-pip-tools==7.5.3
+pip-tools==7.6.0
     # via -r requirements/dev.in
 platformdirs==4.10.0
     # via
