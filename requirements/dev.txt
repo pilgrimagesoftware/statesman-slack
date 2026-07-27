@@ -145,7 +145,7 @@ pallets-sphinx-themes==2.5.0
     # via -r requirements/docs.in
 pathspec==1.1.1
     # via black
-pika==1.4.1
+pika==1.4.2
     # via -r requirements/app.in
 pip-tools==7.5.3
     # via -r requirements/dev.in

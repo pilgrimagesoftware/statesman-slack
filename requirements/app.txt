@@ -78,7 +78,7 @@ ordered-set==4.1.0
     # via flask-limiter
 packaging==26.2
     # via limits
-pika==1.4.1
+pika==1.4.2
     # via -r requirements/app.in
 python-dotenv==1.2.2
     # via -r requirements/app.in
