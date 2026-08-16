@@ -16,11 +16,11 @@ blinker==1.9.0
     #   sentry-sdk
 cachelib==0.14.0
     # via flask-session
-certifi==2026.6.17
+certifi==2026.7.22
     # via
     #   requests
     #   sentry-sdk
-charset-normalizer==3.4.9
+charset-normalizer==3.5.1
     # via requests
 click==8.4.2
     # via flask
@@ -76,9 +76,9 @@ msgspec==0.21.1
     # via flask-session
 ordered-set==4.1.0
     # via flask-limiter
-packaging==26.2
+packaging==26.3
     # via limits
-pika==1.4.1
+pika==1.4.4
     # via -r requirements/app.in
 python-dotenv==1.2.2
     # via -r requirements/app.in
@@ -101,7 +101,7 @@ rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
-sentry-sdk[flask]==2.64.0
+sentry-sdk[flask]==2.68.0
     # via -r requirements/app.in
 slacker==0.14.0
     # via -r requirements/app.in
@@ -118,7 +118,7 @@ uwsgi==2.0.31
     # via -r requirements/app.in
 werkzeug==3.1.8
     # via flask
-wrapt==2.2.2
+wrapt==2.3.0
     # via deprecated
 wtforms==3.2.2
     # via flask-inputs
