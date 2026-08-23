@@ -66,7 +66,7 @@ flask-session==0.8.0
     # via -r requirements/app.in
 future==1.0.0
     # via flask-inputs
-idna==3.18
+idna==3.19
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -110,12 +110,12 @@ pydantic==2.13.4
     # via rstcheck-core
 pydantic-core==2.46.4
     # via pydantic
-pygments==2.20.0
+pygments==2.21.0
     # via
     #   rich
     #   sphinx
     #   sphinx-tabs
-python-dotenv==1.2.2
+python-dotenv==1.2.3
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via -r requirements/app.in

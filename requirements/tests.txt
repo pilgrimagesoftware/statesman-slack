@@ -75,7 +75,7 @@ flask-session==0.8.0
     # via -r requirements/app.in
 future==1.0.0
     # via flask-inputs
-idna==3.18
+idna==3.19
     # via requests
 iniconfig==2.3.0
     # via pytest
@@ -117,7 +117,7 @@ pluggy==1.6.0
     #   pytest
     #   pytest-cov
     #   tox
-pygments==2.20.0
+pygments==2.21.0
     # via pytest
 pyproject-api==1.11.0
     # via tox
@@ -131,7 +131,7 @@ python-discovery==1.5.2
     # via
     #   tox
     #   virtualenv
-python-dotenv==1.2.2
+python-dotenv==1.2.3
     # via -r requirements/app.in
 pyyaml==6.0.3
     # via -r requirements/app.in
